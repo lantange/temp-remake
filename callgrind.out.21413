@@ -1,0 +1,5185 @@
+version: 1
+creator: remake 4.1+dbg-1.4
+cmd: remake --profile
+pid: 21413
+
+desc: Trigger: Normal program termination
+desc: Node: Targets
+
+positions: line
+events: 100usec
+summary: 477985
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/northbridge.o
+338 1411
+cfn=src/mainboard/emulation/qemu-i440fx/northbridge.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/common.c
+0 1
+
+fn=build/util/sconfig/sconfig.tab.h
+0 36
+cfn=/root/coreboot/util/sconfig/sconfig.tab.h_shipped
+calls=1 0
+0 1
+
+fn=build/util/nvramtool/accessors/layout-common.o
+0 261
+cfn=/root/coreboot/util/nvramtool/accessors/layout-common.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/fallback_boot.o
+338 300
+cfn=src/lib/fallback_boot.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/intel/wifi/ramstage.a
+287 766
+cfi=Makefile
+cfn=build/ramstage/drivers/intel/wifi/wifi.o
+calls=1 287
+287 740
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/timestamp.o
+338 289
+cfn=src/arch/x86/timestamp.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/list.o
+338 342
+cfn=src/lib/list.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/selfboot.o
+338 924
+cfn=src/lib/selfboot.c
+calls=1 338
+338 1
+
+fn=src/lib/region_file.c
+0 1
+
+fl=Makefile
+
+fn=.xcompile
+147 1
+cfn=util/xcompile/xcompile
+calls=1 147
+147 1
+
+fn=/root/coreboot/util/cbfstool/rmodule.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/superio/common/ramstage.a
+287 746
+cfi=Makefile
+cfn=build/ramstage/superio/common/conf_mode.o
+calls=1 287
+287 588
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/irq_tables.o
+338 269
+cfn=src/mainboard/emulation/qemu-i440fx/irq_tables.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/memmove.o
+338 260
+
+fn=/root/coreboot/src/commonlib/cbfs.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/edid_fill_fb.o
+338 362
+cfn=src/lib/edid_fill_fb.c
+calls=1 338
+338 1
+
+fl=Makefile.inc
+
+fn=build/coreboot.rom
+1026 408172
+cfi=Makefile.inc
+cfn=build/coreboot.pre
+calls=1 1026
+1026 407440
+
+fn=/root/coreboot/util/cbfstool/partitioned_file.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/assembly_entry.o
+338 168
+cfi=src/arch/x86/Makefile.inc
+cfn=build/generated/assembly.inc
+calls=1 338
+338 20
+cfn=src/arch/x86/assembly_entry.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/rmodule.o
+338 1205
+
+fl=Makefile
+
+fn=build/ramstage/lib/halt.o
+338 255
+
+fl=Makefile
+
+fn=build/ramstage/device/pci_early.o
+338 293
+
+fn=src/drivers/intel/wifi/wifi.c
+0 1
+
+fn=build/util/cbfstool/kv_pair.o
+0 827
+cfn=/root/coreboot/util/cbfstool/flashmap/kv_pair.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/cbfs.o
+338 1156
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/boot.o
+338 312
+
+fn=src/arch/x86/walkcbfs.S
+0 1
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig/lex.yy.o
+45 1315
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/sconfig.tab.c
+calls=1 45
+45 36
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/sconfig.tab.h
+calls=1 45
+45 36
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/lex.yy.c
+calls=1 45
+45 404
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/idt.o
+338 125
+cfn=src/arch/x86/idt.S
+calls=1 338
+338 1
+
+fn=build/util/nvramtool/cli/opts.o
+0 453
+cfn=/root/coreboot/util/nvramtool/cli/opts.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/commonlib/cbfs.o
+338 1191
+cfn=src/commonlib/cbfs.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/cpu_common.o
+338 439
+
+fn=src/southbridge/intel/i82371eb/usb.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/lzma/C/LzmaEnc.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/cli/nvramtool.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/lapic/ramstage.a
+287 3059
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/lapic/secondary.o
+calls=1 287
+287 129
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/lapic/lapic_cpu_init.o
+calls=1 287
+287 1992
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/lapic/lapic.o
+calls=1 287
+287 603
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/lapic/boot_cpu.o
+calls=1 287
+287 304
+
+fl=Makefile
+
+fn=build/bootblock/cpu/x86/mtrr/earlymtrr.o
+338 345
+cfn=src/cpu/x86/mtrr/earlymtrr.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/console/init.o
+338 527
+
+fn=build/util/nvramtool/reg_expr.o
+0 383
+cfn=/root/coreboot/util/nvramtool/reg_expr.c
+calls=1 0
+0 1
+
+fn=src/arch/x86/exception.c
+0 1
+
+fn=src/drivers/emulation/qemu/cirrus.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/pc/isa-dma.o
+338 279
+cfn=src/drivers/pc80/pc/isa-dma.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/timestamp.o
+338 673
+cfn=src/lib/timestamp.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/backup_default_smm.o
+338 405
+cfn=src/cpu/x86/backup_default_smm.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/cbmem.o
+338 331
+cfn=src/arch/x86/cbmem.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/cbfs.o
+338 1503
+
+fn=build/util/cbfstool/lz4.o
+0 17508
+cfn=/root/coreboot/util/cbfstool/lz4/lib/lz4.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/rtc/ramstage.a
+287 1365
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/rtc/mc146818rtc.o
+calls=1 287
+287 1338
+
+fn=src/commonlib/mem_pool.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/cbmem_common.o
+338 306
+cfn=src/lib/cbmem_common.c
+calls=1 338
+338 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/cbfs/fallback/ramstage.elf
+386 141219
+cfi=src/lib/Makefile.inc
+cfn=build/cbfs/fallback/ramstage.debug.rmod
+calls=1 386
+386 141203
+
+fn=src/arch/x86/boot.c
+0 1
+
+fn=src/lib/rtc.c
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/ifwitool
+149 4925
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/ifwitool.o
+calls=1 149
+149 4715
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/lapic/secondary.o
+338 129
+cfn=src/cpu/x86/lapic/secondary.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/edid.o
+338 5061
+cfn=src/lib/edid.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/common/reset.o
+338 216
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/cbfs/fallback/ramstage.debug
+391 131595
+cfi=src/arch/x86/Makefile.inc
+cfn=build/generated/ramstage.o
+calls=1 391
+391 131280
+
+fl=Makefile.inc
+
+fn=build/mainboard/emulation/qemu-i440fx/static.c
+570 3024
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/sconfig
+calls=1 570
+570 2985
+cfn=src/mainboard/emulation/qemu-i440fx/devicetree.cb
+calls=1 570
+570 1
+
+fl=Makefile
+
+fn=build/romstage/lib/prog_ops.o
+338 295
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/fw_cfg.o
+338 2437
+cfn=src/mainboard/emulation/qemu-i440fx/fw_cfg.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/2sha_utility.o
+0 591
+cfn=3rdparty/vboot/firmware/2lib/2sha_utility.c
+calls=1 0
+0 1
+
+fn=build/util/cbfstool/partitioned_file.o
+0 1386
+cfn=/root/coreboot/util/cbfstool/partitioned_file.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/ramstage.a
+287 36773
+cfi=Makefile
+cfn=build/ramstage/lib/wrdd.o
+calls=1 287
+287 252
+cfi=Makefile
+cfn=build/ramstage/lib/version.o
+calls=1 287
+287 162
+cfi=Makefile
+cfn=build/ramstage/lib/trace.o
+calls=1 287
+287 280
+cfi=Makefile
+cfn=build/ramstage/lib/timestamp.o
+calls=1 287
+287 1074
+cfi=Makefile
+cfn=build/ramstage/lib/stack.o
+calls=1 287
+287 332
+cfi=Makefile
+cfn=build/ramstage/lib/selfboot.o
+calls=1 287
+287 1366
+cfi=Makefile
+cfn=build/ramstage/lib/rtc.o
+calls=1 287
+287 635
+cfi=Makefile
+cfn=build/ramstage/lib/romstage_stack.o
+calls=1 287
+287 349
+cfi=Makefile
+cfn=build/ramstage/lib/romstage_handoff.o
+calls=1 287
+287 370
+cfi=Makefile
+cfn=build/ramstage/lib/rmodule.o
+calls=1 287
+287 1205
+cfi=Makefile
+cfn=build/ramstage/lib/reset.o
+calls=1 287
+287 340
+cfi=Makefile
+cfn=build/ramstage/lib/region_file.o
+calls=1 287
+287 1551
+cfi=Makefile
+cfn=build/ramstage/lib/prog_ops.o
+calls=1 287
+287 339
+cfi=Makefile
+cfn=build/ramstage/lib/prog_loaders.o
+calls=1 287
+287 893
+cfi=Makefile
+cfn=build/ramstage/lib/memrange.o
+calls=1 287
+287 1589
+cfi=Makefile
+cfn=build/ramstage/lib/memcmp.o
+calls=1 287
+287 289
+cfi=Makefile
+cfn=build/ramstage/lib/memchr.o
+calls=1 287
+287 275
+cfi=Makefile
+cfn=build/ramstage/lib/malloc.o
+calls=1 287
+287 350
+cfi=Makefile
+cfn=build/ramstage/lib/lzmadecode.o
+calls=1 287
+287 2369
+cfi=Makefile
+cfn=build/ramstage/lib/lzma.o
+calls=1 287
+287 367
+cfi=Makefile
+cfn=build/ramstage/lib/list.o
+calls=1 287
+287 342
+cfi=Makefile
+cfn=build/ramstage/lib/imd_cbmem.o
+calls=1 287
+287 1157
+cfi=Makefile
+cfn=build/ramstage/lib/imd.o
+calls=1 287
+287 2461
+cfi=Makefile
+cfn=build/ramstage/lib/hexstrtobin.o
+calls=1 287
+287 476
+cfi=Makefile
+cfn=build/ramstage/lib/hexdump.o
+calls=1 287
+287 585
+cfi=Makefile
+cfn=build/ramstage/lib/hardwaremain.o
+calls=1 287
+287 1414
+cfi=Makefile
+cfn=build/ramstage/lib/halt.o
+calls=1 287
+287 255
+cfi=Makefile
+cfn=build/ramstage/lib/gcc.o
+calls=1 287
+287 347
+cfi=Makefile
+cfn=build/ramstage/lib/fmap.o
+calls=1 287
+287 717
+cfi=Makefile
+cfn=build/ramstage/lib/fallback_boot.o
+calls=1 287
+287 300
+cfi=Makefile
+cfn=build/ramstage/lib/edid_fill_fb.o
+calls=1 287
+287 362
+cfi=Makefile
+cfn=build/ramstage/lib/edid.o
+calls=1 287
+287 5061
+cfi=Makefile
+cfn=build/ramstage/lib/dimm_info_util.o
+calls=1 287
+287 427
+cfi=Makefile
+cfn=build/ramstage/lib/delay.o
+calls=1 287
+287 285
+cfi=Makefile
+cfn=build/ramstage/lib/coreboot_table.o
+calls=1 287
+287 1813
+cfi=Makefile
+cfn=build/ramstage/lib/compute_ip_checksum.o
+calls=1 287
+287 369
+cfi=Makefile
+cfn=build/ramstage/lib/cbmem_stage_cache.o
+calls=1 287
+287 885
+cfi=Makefile
+cfn=build/ramstage/lib/cbmem_console.o
+calls=1 287
+287 667
+cfi=Makefile
+cfn=build/ramstage/lib/cbmem_common.o
+calls=1 287
+287 354
+cfi=Makefile
+cfn=build/ramstage/lib/cbfs.o
+calls=1 287
+287 1503
+cfi=Makefile
+cfn=build/ramstage/lib/bootmode.o
+calls=1 287
+287 362
+cfi=Makefile
+cfn=build/ramstage/lib/bootmem.o
+calls=1 287
+287 1291
+cfi=Makefile
+cfn=build/ramstage/lib/boot_device.o
+calls=1 287
+287 412
+cfi=Makefile
+cfn=build/ramstage/lib/b64_decode.o
+calls=1 287
+287 441
+
+fl=Makefile
+
+fn=build/romstage/lib/romstage_stack.o
+338 327
+cfn=src/lib/romstage_stack.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/id.o
+338 147
+cfi=Makefile.inc
+cfn=build/build.h
+calls=1 338
+338 25
+cfn=src/arch/x86/id.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pci_class.o
+338 555
+cfn=src/device/pci_class.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/nvramtool/cbfs.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/generated/ramstage.o
+395 131280
+cfn=/root/coreboot/util/crossgcc/xgcc/lib/gcc/i386-elf/8.1.0/libgcc.a
+calls=1 395
+395 1
+cfi=Makefile
+cfn=build/ramstage/lib/program.ld
+calls=1 395
+395 86
+cfi=Makefile
+cfn=build/ramstage/arch/x86/memlayout.ld
+calls=1 395
+395 88
+cfi=Makefile
+cfn=build/ramstage/arch/x86/ramstage.a
+calls=1 395
+395 25027
+cfi=Makefile
+cfn=build/ramstage/commonlib/ramstage.a
+calls=1 395
+395 8788
+cfi=Makefile
+cfn=build/ramstage/console/ramstage.a
+calls=1 395
+395 4129
+cfi=Makefile
+cfn=build/ramstage/cpu/qemu-x86/ramstage.a
+calls=1 395
+395 488
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/ramstage.a
+calls=1 395
+395 431
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/lapic/ramstage.a
+calls=1 395
+395 3059
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/mtrr/ramstage.a
+calls=1 395
+395 3266
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/pae/ramstage.a
+calls=1 395
+395 1575
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/smm/ramstage.a
+calls=1 395
+395 861
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/tsc/ramstage.a
+calls=1 395
+395 731
+cfi=Makefile
+cfn=build/ramstage/device/ramstage.a
+calls=1 395
+395 21412
+cfi=Makefile
+cfn=build/ramstage/drivers/emulation/qemu/ramstage.a
+calls=1 395
+395 1291
+cfi=Makefile
+cfn=build/ramstage/drivers/intel/wifi/ramstage.a
+calls=1 395
+395 766
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/pc/ramstage.a
+calls=1 395
+395 2064
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/rtc/ramstage.a
+calls=1 395
+395 1365
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/vga/ramstage.a
+calls=1 395
+395 2706
+cfi=Makefile
+cfn=build/ramstage/drivers/spi/ramstage.a
+calls=1 395
+395 1215
+cfi=Makefile
+cfn=build/ramstage/drivers/uart/ramstage.a
+calls=1 395
+395 1523
+cfi=Makefile
+cfn=build/ramstage/lib/ramstage.a
+calls=1 395
+395 36773
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/ramstage.a
+calls=1 395
+395 5377
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/common/ramstage.a
+calls=1 395
+395 2711
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/ramstage.a
+calls=1 395
+395 4185
+cfi=Makefile
+cfn=build/ramstage/superio/common/ramstage.a
+calls=1 395
+395 746
+
+fl=Makefile
+
+fn=build/ramstage/lib/romstage_stack.o
+338 349
+
+fn=src/arch/x86/assembly_entry.S
+0 1
+
+fn=build/util/nvramtool/accessors/layout-text.o
+0 775
+cfn=/root/coreboot/util/nvramtool/accessors/layout-text.c
+calls=1 0
+0 1
+
+fn=src/console/post.c
+0 1
+
+fn=src/lib/cbmem_common.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/libgcc.o
+338 165
+
+fn=src/lib/dimm_info_util.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/reset.o
+338 310
+cfn=src/southbridge/intel/i82371eb/reset.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/rmodtool.c
+0 1
+
+fl=Makefile.inc
+
+fn=files_added
+82 10
+cfi=Makefile.inc
+cfn=build_complete
+calls=1 82
+82 9
+
+fn=src/arch/x86/bootblock_simple.c
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmaptool
+141 10961
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/valstr.o
+calls=1 141
+141 439
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/kv_pair.o
+calls=1 141
+141 827
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmap.o
+calls=1 141
+141 1867
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_scanner.o
+calls=1 141
+141 2412
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_parser.o
+calls=1 141
+141 1283
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd.o
+calls=1 141
+141 1603
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmap_from_fmd.o
+calls=1 141
+141 584
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs_sections.o
+calls=1 141
+141 617
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmaptool.o
+calls=1 141
+141 1086
+
+fn=src/arch/x86/cpu.c
+0 1
+
+fn=build/util/cbfstool/fmaptool.o
+0 1086
+cfn=/root/coreboot/util/cbfstool/fmaptool.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/common/ramstage.a
+287 2711
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/common/smbus.o
+calls=1 287
+287 1459
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/common/reset.o
+calls=1 287
+287 216
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/common/pmbase.o
+calls=1 287
+287 1000
+
+fn=src/lib/stack.c
+0 1
+
+fn=/root/coreboot/src/mainboard/emulation/qemu-i440fx/cmos.layout
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/mtrr/ramstage.a
+287 3266
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/mtrr/mtrr.o
+calls=1 287
+287 3238
+
+fn=src/lib/romstage_stack.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/cbmem_stage_cache.o
+338 568
+cfn=src/lib/cbmem_stage_cache.c
+calls=1 338
+338 1
+
+fn=build/util/nvramtool/cmos_ops.o
+0 470
+cfn=/root/coreboot/util/nvramtool/cmos_ops.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/cbfstool/lz4/lib/lz4frame.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/imd_cbmem.o
+338 1157
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/generated/bootblock.ld
+149 45
+cfi=src/arch/x86/Makefile.inc
+cfn=build/generated/empty
+calls=1 149
+149 10
+
+fl=Makefile
+
+fn=build/romstage/mainboard/emulation/qemu-i440fx/static.o
+338 298
+
+fl=Makefile
+
+fn=build/bootblock/lib/cbmem_console.o
+338 435
+cfn=src/lib/cbmem_console.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pci_device.o
+338 3878
+cfn=src/device/pci_device.c
+calls=1 338
+338 1
+
+fn=src/lib/rmodule.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/device/i2c.o
+338 386
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/pae/ramstage.a
+287 1575
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/pae/pgtbl.o
+calls=1 287
+287 1548
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/cbfstool
+137 71135
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/LzmaEnc.o
+calls=1 137
+137 8290
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/LzmaDec.o
+calls=1 137
+137 3728
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/LzFind.o
+calls=1 137
+137 3092
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/lzma.o
+calls=1 137
+137 748
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/lz4_wrapper.o
+calls=1 137
+137 1036
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/xxhash.o
+calls=1 137
+137 1625
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/lz4frame.o
+calls=1 137
+137 3168
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/lz4hc.o
+calls=1 137
+137 4312
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/lz4.o
+calls=1 137
+137 17508
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/compress.o
+calls=1 137
+137 653
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs-payload-linux.o
+calls=1 137
+137 909
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/linux_trampoline.o
+calls=1 137
+137 164
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/2sha512.o
+calls=1 137
+137 911
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/2sha256.o
+calls=1 137
+137 931
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/2sha1.o
+calls=1 137
+137 675
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/2sha_utility.o
+calls=1 137
+137 591
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/region.o
+calls=1 137
+137 1319
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/mem_pool.o
+calls=1 137
+137 286
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fsp_relocate.o
+calls=1 137
+137 2330
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs.o
+calls=1 137
+137 1148
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/partitioned_file.o
+calls=1 137
+137 1386
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fit.o
+calls=1 137
+137 986
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs-mkpayload.o
+calls=1 137
+137 1697
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs-mkstage.o
+calls=1 137
+137 1458
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfs_image.o
+calls=1 137
+137 7038
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfstool.o
+calls=1 137
+137 4711
+
+fn=build/util/cbfstool/2sha256.o
+0 931
+cfn=3rdparty/vboot/firmware/2lib/2sha256.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/memmove.o
+338 240
+cfn=src/arch/x86/memmove.c
+calls=1 338
+338 1
+
+fn=src/drivers/spi/bitbang.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/device.o
+338 3898
+cfn=src/device/device.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/mainboard.o
+338 451
+cfn=src/mainboard/emulation/qemu-i440fx/mainboard.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/lzmadecode.o
+338 2395
+cfn=src/lib/lzmadecode.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/compute_ip_checksum.o
+338 338
+cfn=src/lib/compute_ip_checksum.c
+calls=1 338
+338 1
+
+fn=src/lib/coreboot_table.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/reset.o
+338 263
+
+fn=build/util/nvramtool/input_file.o
+0 486
+cfn=/root/coreboot/util/nvramtool/input_file.c
+calls=1 0
+0 1
+
+fn=build/util/cbfstool/xxhash.o
+0 1625
+cfn=/root/coreboot/util/cbfstool/lz4/lib/xxhash.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/device/device_const.o
+338 697
+cfn=src/device/device_const.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pcix_device.o
+338 641
+cfn=src/device/pcix_device.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/console/die.o
+338 326
+
+fl=Makefile.inc
+
+fn=build/fmap.fmd
+944 46
+cfn=/root/coreboot/util/cbfstool/default-x86.fmd
+calls=1 944
+944 1
+cfn=/root/coreboot/Makefile.inc
+calls=1 944
+944 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/pc/ramstage.a
+287 2064
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/pc/keyboard.o
+calls=1 287
+287 866
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/pc/isa-dma.o
+calls=1 287
+287 279
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/pc/i8259.o
+calls=1 287
+287 590
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/pc/i8254.o
+calls=1 287
+287 297
+
+fn=src/arch/x86/pirq_routing.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/option_table.h
+36 8979
+cfn=/root/coreboot/src/mainboard/emulation/qemu-i440fx/cmos.layout
+calls=1 36
+36 1
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/nvramtool
+calls=1 36
+36 8941
+
+fl=util/nvramtool/Makefile.inc
+
+fn=build/util/nvramtool/nvramtool
+46 8941
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/accessors/cmos-mem.o
+calls=1 46
+46 393
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cbfs.o
+calls=1 46
+46 873
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/reg_expr.o
+calls=1 46
+46 383
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/lbtable.o
+calls=1 46
+46 698
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/accessors/layout-bin.o
+calls=1 46
+46 612
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/accessors/layout-text.o
+calls=1 46
+46 775
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/accessors/layout-common.o
+calls=1 46
+46 261
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/layout.o
+calls=1 46
+46 579
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/input_file.o
+calls=1 46
+46 486
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/hexdump.o
+calls=1 46
+46 356
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/compute_ip_checksum.o
+calls=1 46
+46 268
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/common.o
+calls=1 46
+46 395
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cmos_ops.o
+calls=1 46
+46 470
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cmos_lowlevel.o
+calls=1 46
+46 525
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cli/opts.o
+calls=1 46
+46 453
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cli/nvramtool.o
+calls=1 46
+46 1120
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/cli
+calls=1 46
+46 10
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool/accessors
+calls=1 46
+46 11
+cfi=util/nvramtool/Makefile.inc
+cfn=build/util/nvramtool
+calls=1 46
+46 14
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/smbus.o
+338 646
+cfn=src/southbridge/intel/i82371eb/smbus.c
+calls=1 338
+338 1
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig/sconfig
+41 2985
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/main.o
+calls=1 41
+41 949
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/sconfig.tab.o
+calls=1 41
+41 494
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/lex.yy.o
+calls=1 41
+41 1315
+
+fl=Makefile
+
+fn=build/ramstage/lib/compute_ip_checksum.o
+338 369
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/timestamp.o
+338 256
+
+fn=src/device/i2c.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/memchr.o
+338 275
+
+fl=Makefile
+
+fn=build/ramstage/console/console.o
+338 785
+
+fl=Makefile
+
+fn=build/ramstage/lib/rtc.o
+338 635
+cfn=src/lib/rtc.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/memmove.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/lz4/lib/lz4hc.c
+0 1
+
+fn=src/arch/x86/tables.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/uart/uart8250io.o
+338 864
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/bootblock_romcc.o
+338 17875
+cfi=src/arch/x86/Makefile.inc
+cfn=build/generated/bootblock.inc
+calls=1 338
+338 17673
+cfn=src/arch/x86/bootblock_romcc.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/cpu/x86/lapic/boot_cpu.o
+338 236
+cfn=src/cpu/x86/lapic/boot_cpu.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/memrange.o
+338 1212
+cfn=src/lib/memrange.c
+calls=1 338
+338 1
+
+fn=src/lib/compute_ip_checksum.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/tables.o
+338 857
+cfn=src/arch/x86/tables.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/uart/ramstage.a
+287 1523
+cfi=Makefile
+cfn=build/ramstage/drivers/uart/util.o
+calls=1 287
+287 630
+cfi=Makefile
+cfn=build/ramstage/drivers/uart/uart8250io.o
+calls=1 287
+287 864
+
+fl=Makefile
+
+fn=build/ramstage/device/pci_rom.o
+338 1125
+cfn=src/device/pci_rom.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/fsp_relocate.o
+0 2330
+cfn=/root/coreboot/src/commonlib/fsp_relocate.c
+calls=1 0
+0 1
+
+fn=src/southbridge/intel/i82371eb/early_pm.c
+0 1
+
+fn=build/util/cbfstool/fit.o
+0 986
+cfn=/root/coreboot/util/cbfstool/fit.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/cpu/x86/tsc/delay_tsc.o
+338 485
+cfn=src/cpu/x86/tsc/delay_tsc.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/walkcbfs.o
+338 130
+cfn=src/arch/x86/walkcbfs.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/memlayout.ld
+338 133
+cfn=src/arch/x86/memlayout.ld
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/console/die.o
+338 271
+cfn=src/console/die.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/cpu/x86/pae/pgtbl.o
+338 869
+cfn=src/cpu/x86/pae/pgtbl.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/timestamp.c
+0 1
+
+fl=Makefile.inc
+
+fn=build/config.h
+555 30091
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/conf
+calls=1 555
+555 8536
+
+fn=build/util/cbfstool/elfheaders.o
+0 4244
+cfn=/root/coreboot/util/cbfstool/elfheaders.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/mainboard/emulation/qemu-i440fx/cbfs-file.8tVAXJ.out
+255 1474
+
+fn=/root/coreboot/src/commonlib/region.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/cpu/x86/mtrr/earlymtrr.o
+338 336
+
+fn=src/lib/bootmode.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/program.ld
+338 86
+
+fl=Makefile.inc
+
+fn=real-target
+70 443271
+cfi=Makefile.inc
+cfn=files_added
+calls=1 70
+70 10
+cfi=Makefile.inc
+cfn=coreboot
+calls=1 70
+70 413168
+cfi=Makefile.inc
+cfn=build/config.h
+calls=1 70
+70 30091
+
+fn=src/lib/memrange.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/timestamp.o
+338 918
+
+fn=build/util/cbfstool/LzmaEnc.o
+0 8290
+cfn=/root/coreboot/util/cbfstool/lzma/C/LzmaEnc.c
+calls=1 0
+0 1
+
+fn=src/device/device_util.c
+0 1
+
+fn=src/superio/common/conf_mode.c
+0 1
+
+fn=/root/coreboot/util/kconfig/zconf.lex.c_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/selfboot.o
+338 1366
+
+fl=Makefile.inc
+
+fn=coreboot
+71 413168
+cfi=Makefile.inc
+cfn=build/ifwitool
+calls=1 71
+71 4940
+cfi=Makefile.inc
+cfn=build/rmodtool
+calls=1 71
+71 13
+cfi=Makefile.inc
+cfn=build/cbfstool
+calls=1 71
+71 26
+cfi=Makefile.inc
+cfn=build/coreboot.rom
+calls=1 71
+71 408172
+cfi=Makefile.inc
+cfn=build-dirs
+calls=1 71
+71 14
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/usb.o
+338 400
+cfn=src/southbridge/intel/i82371eb/usb.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/timestamp.o
+338 329
+
+fn=/root/coreboot/util/kconfig/conf.c
+0 1
+
+fn=3rdparty/vboot/firmware/2lib/2sha1.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/commonlib/region.o
+338 1511
+cfn=src/commonlib/region.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/emulation/qemu/qemu_debugcon.o
+338 386
+
+fn=src/commonlib/cbfs.c
+0 1
+
+fl=Makefile.inc
+
+fn=build/cbfstool
+500 26
+
+fl=Makefile
+
+fn=build/bootblock/lib/fmap.o
+338 614
+cfn=src/lib/fmap.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/device/dram/ddr2.o
+338 1947
+cfn=src/device/dram/ddr2.c
+calls=1 338
+338 1
+
+fn=src/cpu/x86/mtrr/earlymtrr.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/mem_pool.o
+338 307
+
+fl=Makefile.inc
+
+fn=build/util/romcc/romcc
+525 16258
+cfn=/root/coreboot/util/romcc/romcc.c
+calls=1 525
+525 1
+
+fn=src/cpu/x86/lapic/lapic.c
+0 1
+
+fn=util/sconfig/main.c
+0 1
+
+fn=util/xcompile/xcompile
+0 1
+
+fn=src/lib/timestamp.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/pc/keyboard.o
+338 866
+cfn=src/drivers/pc80/pc/keyboard.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/acpi_pld.o
+338 601
+cfn=src/arch/x86/acpi_pld.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/commonlib/mem_pool.o
+338 297
+cfn=src/commonlib/mem_pool.c
+calls=1 338
+338 1
+
+fn=build/util/nvramtool/hexdump.o
+0 356
+cfn=/root/coreboot/util/nvramtool/hexdump.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/acpigen_dsm.o
+338 480
+cfn=src/arch/x86/acpigen_dsm.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/fmd.c
+0 1
+
+fl=util/nvramtool/Makefile.inc
+
+fn=build/util/nvramtool/cli
+39 10
+
+fn=src/arch/x86/id.S
+0 1
+
+fn=build/util/nvramtool/common.o
+0 395
+cfn=/root/coreboot/util/nvramtool/common.c
+calls=1 0
+0 1
+
+fl=Makefile.inc
+
+fn=build/build.h
+486 25
+cfn=build/build.ht
+calls=1 486
+486 1
+
+fn=build/util/nvramtool/accessors/cmos-mem.o
+0 393
+cfn=/root/coreboot/util/nvramtool/accessors/cmos-mem.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/acpigen.o
+338 5219
+cfn=src/arch/x86/acpigen.c
+calls=1 338
+338 1
+
+fn=src/lib/memcmp.c
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.lex.c
+371 203
+cfn=/root/coreboot/util/kconfig/zconf.lex.c_shipped
+calls=1 371
+371 1
+
+fn=/root/coreboot/util/cbfstool/lz4/lib/lz4.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/console/post.o
+338 358
+
+fl=Makefile
+
+fn=build/ramstage/lib/cbmem_common.o
+338 354
+
+fl=Makefile
+
+fn=build/ramstage/lib/dimm_info_util.o
+338 427
+cfn=src/lib/dimm_info_util.c
+calls=1 338
+338 1
+
+fn=src/mainboard/emulation/qemu-i440fx/dsdt.asl
+0 1
+
+fn=/root/coreboot/src/commonlib/mem_pool.c
+0 1
+
+fn=/root/coreboot/src/commonlib/lz4_wrapper.c
+0 1
+
+fn=build/util/cbfstool/rmodule.o
+0 2231
+cfn=/root/coreboot/util/cbfstool/rmodule.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/memrange.o
+338 1589
+
+fl=Makefile
+
+fn=build/romstage/lib/cbmem_console.o
+338 533
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/cpu.o
+338 1120
+cfn=src/arch/x86/cpu.c
+calls=1 338
+338 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/generated/bootblock.inc
+155 17673
+cfi=Makefile.inc
+cfn=build/util/romcc/romcc
+calls=1 155
+155 16258
+cfn=src/arch/x86/bootblock_simple.c
+calls=1 155
+155 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/memcpy.o
+338 233
+cfn=src/arch/x86/memcpy.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/cbmem.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/stack.o
+338 325
+cfn=src/lib/stack.c
+calls=1 338
+338 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/dsdt.aml
+367 298
+cfn=src/mainboard/emulation/qemu-i440fx/dsdt.asl
+calls=1 367
+367 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/pc/i8259.o
+338 590
+cfn=src/drivers/pc80/pc/i8259.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/southbridge/intel/i82371eb/early_pm.o
+338 475
+cfn=src/southbridge/intel/i82371eb/early_pm.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/c_start.S
+0 1
+
+fl=Makefile
+
+fn=build/romstage/southbridge/intel/common/reset.o
+338 217
+
+fl=Makefile
+
+fn=build/bootblock/southbridge/intel/common/reset.o
+338 208
+cfn=src/southbridge/intel/common/reset.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/lz4_wrapper.o
+338 1665
+
+fl=Makefile
+
+fn=build/romstage/device/device_const.o
+338 701
+
+fn=/root/coreboot/src/commonlib/fsp_relocate.c
+0 1
+
+fn=build/util/cbfstool/cbfs_sections.o
+0 617
+cfn=/root/coreboot/util/cbfstool/cbfs_sections.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/sconfig/lex.yy.c_shipped
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmd_parser.o
+177 1283
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_parser.c
+calls=1 177
+177 37
+cfn=/root/coreboot/util/cbfstool/fmd_parser.c_shipped
+calls=1 177
+177 1
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/ramstage.a
+287 5377
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/northbridge.o
+calls=1 287
+287 1411
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/mainboard.o
+calls=1 287
+287 451
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/irq_tables.o
+calls=1 287
+287 269
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/fw_cfg.o
+calls=1 287
+287 2437
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/acpi_tables.o
+calls=1 287
+287 478
+cfi=Makefile
+cfn=build/ramstage/mainboard/emulation/qemu-i440fx/static.o
+calls=1 287
+287 294
+
+fn=build/util/cbfstool/lzma.o
+0 748
+cfn=/root/coreboot/util/cbfstool/lzma/lzma.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/spi/bitbang.o
+338 420
+
+fn=src/lib/cbmem_console.c
+0 1
+
+fl=Makefile
+
+fn=all
+91 1
+cfi=Makefile
+cfn=real-all
+calls=1 91
+91 443271
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/mmap_boot.o
+338 398
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/rmodtool
+145 9562
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/xdr.o
+calls=1 145
+145 919
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/elfheaders.o
+calls=1 145
+145 4244
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/common.o
+calls=1 145
+145 1316
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/rmodule.o
+calls=1 145
+145 2231
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/rmodtool.o
+calls=1 145
+145 626
+
+fl=Makefile
+
+fn=build/bootblock/lib/prog_ops.o
+338 291
+cfn=src/lib/prog_ops.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/fmap_from_fmd.o
+0 584
+cfn=/root/coreboot/util/cbfstool/fmap_from_fmd.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/coreboot_table.o
+338 1813
+cfn=src/lib/coreboot_table.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/cbfs_and_run.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/region_file.o
+338 1016
+cfn=src/lib/region_file.c
+calls=1 338
+338 1
+
+fn=src/southbridge/intel/i82371eb/early_smbus.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/cbmem_stage_cache.o
+338 885
+
+fl=Makefile
+
+fn=build/romstage/cpu/x86/lapic/boot_cpu.o
+338 243
+
+fn=/root/coreboot/util/nvramtool/lbtable.c
+0 1
+
+fn=build/util/cbfstool/cbfs-mkpayload.o
+0 1697
+cfn=/root/coreboot/util/cbfstool/cbfs-mkpayload.c
+calls=1 0
+0 1
+
+fn=build/util/cbfstool/LzmaDec.o
+0 3728
+cfn=/root/coreboot/util/cbfstool/lzma/C/LzmaDec.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/memcmp.o
+338 265
+
+fn=src/device/dram/ddr2.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/hexdump.o
+338 284
+cfn=src/lib/hexdump.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/static.o
+338 294
+
+fl=Makefile.inc
+
+fn=build-dirs
+490 14
+
+fn=/root/coreboot/util/cbfstool/cbfs_image.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/i2c.o
+338 467
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/mmap_boot.o
+338 485
+cfn=src/arch/x86/mmap_boot.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/southbridge/intel/i82371eb/early_smbus.o
+338 506
+cfn=src/southbridge/intel/i82371eb/early_smbus.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/fmap.o
+0 1867
+cfn=/root/coreboot/util/cbfstool/flashmap/fmap.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/imd.o
+338 1915
+cfn=src/lib/imd.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/vga/vga_io.o
+338 1130
+cfn=src/drivers/pc80/vga/vga_io.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/bootblock_romcc.S
+0 1
+
+fl=Makefile.inc
+
+fn=build/cbfs/fallback/bootblock.raw.bin
+673 74647
+cfi=Makefile.inc
+cfn=build/cbfs/fallback/bootblock.raw.elf
+calls=1 673
+673 74628
+
+fl=Makefile
+
+fn=build/romstage/cpu/x86/pae/pgtbl.o
+338 927
+
+fn=src/device/device_const.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/lzma.o
+338 377
+cfn=src/lib/lzma.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/memset.o
+338 279
+cfn=src/arch/x86/memset.c
+calls=1 338
+338 1
+
+fn=src/device/pcix_device.c
+0 1
+
+fn=build/util/cbfstool/valstr.o
+0 439
+cfn=/root/coreboot/util/cbfstool/flashmap/valstr.c
+calls=1 0
+0 1
+
+fl=Makefile.inc
+
+fn=build/coreboot.pre
+978 407440
+cfi=Makefile.inc
+cfn=build/fmap.desc
+calls=1 978
+978 1
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/cbfstool
+calls=1 978
+978 71135
+cfi=payloads/external/Makefile.inc
+cfn=payloads/external/FILO/filo/build/version.h
+calls=1 978
+978 1
+cfi=payloads/external/Makefile.inc
+cfn=payloads/external/FILO/filo/.config
+calls=1 978
+978 1
+cfi=payloads/external/Makefile.inc
+cfn=payloads/external/FILO/filo/build/filo.elf
+calls=1 978
+978 66545
+cfi=src/arch/x86/Makefile.inc
+cfn=build/dsdt.aml
+calls=1 978
+978 298
+cfi=src/arch/x86/Makefile.inc
+cfn=build/cmos_layout.bin
+calls=1 978
+978 30
+cfi=Makefile
+cfn=build/mainboard/emulation/qemu-i440fx/cbfs-file.8tVAXJ.out
+calls=1 978
+978 1474
+cfi=src/arch/x86/Makefile.inc
+cfn=build/cbfs/fallback/ramstage.elf
+calls=1 978
+978 141219
+cfi=Makefile.inc
+cfn=build/cbfs/fallback/romstage.elf
+calls=1 978
+978 49024
+cfi=Makefile.inc
+cfn=build/cbfs/fallback/bootblock.bin
+calls=1 978
+978 74660
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/gdt.o
+338 278
+cfn=src/arch/x86/gdt.c
+calls=1 338
+338 1
+
+fn=src/cpu/x86/lapic/boot_cpu.c
+0 1
+
+fn=build/util/sconfig/lex.yy.c
+0 404
+cfn=/root/coreboot/util/sconfig/lex.yy.c_shipped
+calls=1 0
+0 1
+
+fl=payloads/external/Makefile.inc
+
+fn=payloads/external/FILO/filo/.config
+167 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/intel/wifi/wifi.o
+338 740
+cfn=src/drivers/intel/wifi/wifi.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/mtrr/mtrr.o
+338 3238
+cfn=src/cpu/x86/mtrr/mtrr.c
+calls=1 338
+338 1
+
+fn=build/util/nvramtool/cmos_lowlevel.o
+0 525
+cfn=/root/coreboot/util/nvramtool/cmos_lowlevel.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/rtc/mc146818rtc.o
+338 1338
+
+fl=Makefile
+
+fn=build/romstage/console/post.o
+338 317
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/cf9_reset.o
+338 391
+cfn=src/arch/x86/cf9_reset.c
+calls=1 338
+338 1
+
+fn=src/cpu/x86/tsc/delay_tsc.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/commonlib/region.o
+338 1469
+
+fl=Makefile
+
+fn=build/bootblock/drivers/uart/util.o
+338 351
+cfn=src/drivers/uart/util.c
+calls=1 338
+338 1
+
+fn=src/console/die.c
+0 1
+
+fn=src/cpu/x86/pae/pgtbl.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/compute_ip_checksum.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/fmap.o
+338 641
+
+fl=Makefile
+
+fn=build/bootblock/lib/version.o
+338 160
+cfn=src/lib/version.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/smm/smm_module_loader.o
+338 835
+cfn=src/cpu/x86/smm/smm_module_loader.c
+calls=1 338
+338 1
+
+fn=src/lib/lzma.c
+0 1
+
+fn=src/southbridge/intel/i82371eb/acpi_tables.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/memchr.o
+338 249
+cfn=src/lib/memchr.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/superio/common/conf_mode.o
+338 588
+cfn=src/superio/common/conf_mode.c
+calls=1 338
+338 1
+
+fn=src/drivers/pc80/vga/vga.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/lzma/lzma.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/boot_device.o
+338 313
+
+fl=Makefile
+
+fn=build/ramstage/cpu/qemu-x86/ramstage.a
+287 488
+cfi=Makefile
+cfn=build/ramstage/cpu/qemu-x86/qemu.o
+calls=1 287
+287 462
+
+fn=src/commonlib/lz4_wrapper.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/ramstage.a
+287 8788
+cfi=Makefile
+cfn=build/ramstage/commonlib/region.o
+calls=1 287
+287 1986
+cfi=Makefile
+cfn=build/ramstage/commonlib/mem_pool.o
+calls=1 287
+287 307
+cfi=Makefile
+cfn=build/ramstage/commonlib/lz4_wrapper.o
+calls=1 287
+287 1665
+cfi=Makefile
+cfn=build/ramstage/commonlib/iobuf.o
+calls=1 287
+287 3121
+cfi=Makefile
+cfn=build/ramstage/commonlib/cbfs.o
+calls=1 287
+287 1675
+
+fn=/root/coreboot/util/nvramtool/layout.c
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmd_scanner.o
+178 2412
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_scanner.c
+calls=1 178
+178 36
+cfn=/root/coreboot/util/cbfstool/fmd_scanner.c_shipped
+calls=1 178
+178 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/memlayout.ld
+338 88
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/cbfs.o
+338 1675
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/tsc/ramstage.a
+287 731
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/tsc/delay_tsc.o
+calls=1 287
+287 704
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/pirq_routing.o
+338 649
+cfn=src/arch/x86/pirq_routing.c
+calls=1 338
+338 1
+
+fn=src/cpu/x86/backup_default_smm.c
+0 1
+
+fn=src/commonlib/region.c
+0 1
+
+fn=src/device/i2c_bus.c
+0 1
+
+fn=src/arch/x86/acpigen.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/lapic/lapic.o
+338 603
+cfn=src/cpu/x86/lapic/lapic.c
+calls=1 338
+338 1
+
+fn=src/lib/fmap.c
+0 1
+
+fn=build/cbfs/fallback/romstage.elf
+0 49024
+cfi=src/arch/x86/Makefile.inc
+cfn=build/cbfs/fallback/romstage.debug
+calls=1 0
+0 48920
+
+fl=Makefile
+
+fn=build/ramstage/lib/timestamp.o
+338 1074
+
+fn=src/arch/x86/rdrand.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/i82371eb.o
+338 271
+cfn=src/southbridge/intel/i82371eb/i82371eb.c
+calls=1 338
+338 1
+
+fn=src/drivers/pc80/vga/vga_io.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/gcc.o
+338 262
+cfn=src/lib/gcc.c
+calls=1 338
+338 1
+
+fn=src/drivers/pc80/pc/i8254.c
+0 1
+
+fn=3rdparty/vboot/firmware/2lib/2sha_utility.c
+0 1
+
+fn=src/southbridge/intel/common/smbus.c
+0 1
+
+fn=build/util/cbfstool/xdr.o
+0 919
+cfn=/root/coreboot/util/cbfstool/xdr.c
+calls=1 0
+0 1
+
+fn=src/lib/trace.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/ramstage.a
+287 25027
+cfi=Makefile
+cfn=build/ramstage/arch/x86/timestamp.o
+calls=1 287
+287 329
+cfi=Makefile
+cfn=build/ramstage/arch/x86/tables.o
+calls=1 287
+287 857
+cfi=Makefile
+cfn=build/ramstage/arch/x86/smbios.o
+calls=1 287
+287 2996
+cfi=Makefile
+cfn=build/ramstage/arch/x86/rdrand.o
+calls=1 287
+287 383
+cfi=Makefile
+cfn=build/ramstage/arch/x86/pirq_routing.o
+calls=1 287
+287 649
+cfi=Makefile
+cfn=build/ramstage/arch/x86/pci_ops_conf1.o
+calls=1 287
+287 761
+cfi=Makefile
+cfn=build/ramstage/arch/x86/pci_ops.o
+calls=1 287
+287 276
+cfi=Makefile
+cfn=build/ramstage/arch/x86/mmap_boot.o
+calls=1 287
+287 398
+cfi=Makefile
+cfn=build/ramstage/arch/x86/memset.o
+calls=1 287
+287 289
+cfi=Makefile
+cfn=build/ramstage/arch/x86/memmove.o
+calls=1 287
+287 260
+cfi=Makefile
+cfn=build/ramstage/arch/x86/memcpy.o
+calls=1 287
+287 251
+cfi=Makefile
+cfn=build/ramstage/arch/x86/idt.o
+calls=1 287
+287 125
+cfi=Makefile
+cfn=build/ramstage/arch/x86/gdt.o
+calls=1 287
+287 278
+cfi=Makefile
+cfn=build/ramstage/arch/x86/exception.o
+calls=1 287
+287 729
+cfi=Makefile
+cfn=build/ramstage/arch/x86/ebda.o
+calls=1 287
+287 698
+cfi=Makefile
+cfn=build/ramstage/arch/x86/cpu_common.o
+calls=1 287
+287 439
+cfi=Makefile
+cfn=build/ramstage/arch/x86/cpu.o
+calls=1 287
+287 1120
+cfi=Makefile
+cfn=build/ramstage/arch/x86/cf9_reset.o
+calls=1 287
+287 484
+cfi=Makefile
+cfn=build/ramstage/arch/x86/cbmem.o
+calls=1 287
+287 336
+cfi=Makefile
+cfn=build/ramstage/arch/x86/c_start.o
+calls=1 287
+287 133
+cfi=Makefile
+cfn=build/ramstage/arch/x86/boot.o
+calls=1 287
+287 382
+cfi=Makefile
+cfn=build/ramstage/arch/x86/acpigen_dsm.o
+calls=1 287
+287 480
+cfi=Makefile
+cfn=build/ramstage/arch/x86/acpigen.o
+calls=1 287
+287 5219
+cfi=Makefile
+cfn=build/ramstage/arch/x86/acpi_pld.o
+calls=1 287
+287 601
+cfi=Makefile
+cfn=build/ramstage/arch/x86/acpi_device.o
+calls=1 287
+287 2483
+cfi=Makefile
+cfn=build/ramstage/arch/x86/acpi.o
+calls=1 287
+287 3998
+
+fn=build/util/cbfstool/LzFind.o
+0 3092
+cfn=/root/coreboot/util/cbfstool/lzma/C/LzFind.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/malloc.o
+338 350
+cfn=src/lib/malloc.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/memcpy.o
+338 232
+
+fn=/root/coreboot/util/cbfstool/fit.c
+0 1
+
+fl=Makefile.inc
+
+fn=build/fmap.desc
+966 1
+
+fn=src/southbridge/intel/i82371eb/ide.c
+0 1
+
+fl=Makefile.inc
+
+fn=build/cbfs/fallback/bootblock.raw.elf
+667 74628
+cfi=Makefile.inc
+cfn=build/cbfs/fallback/bootblock.elf
+calls=1 667
+667 74606
+
+fl=Makefile
+
+fn=build/romstage/drivers/emulation/qemu/qemu_debugcon.o
+338 336
+cfn=src/drivers/emulation/qemu/qemu_debugcon.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/ramtest.o
+338 671
+cfn=src/lib/ramtest.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/delay.o
+338 285
+
+fn=/root/coreboot/util/cbfstool/cbfs-payload-linux.c
+0 1
+
+fn=build/util/cbfstool/common.o
+0 1316
+cfn=/root/coreboot/util/cbfstool/common.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/iobuf.o
+338 3121
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/ebda.o
+338 698
+cfn=src/arch/x86/ebda.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/bootmode.o
+338 362
+
+fn=src/lib/malloc.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/console/vtxprintf.o
+338 1356
+cfn=src/console/vtxprintf.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/common/pmbase.o
+338 1000
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/cbmem.o
+338 336
+
+fl=Makefile
+
+fn=build/ramstage/drivers/emulation/qemu/cirrus.o
+338 438
+cfn=src/drivers/emulation/qemu/cirrus.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/prog_loaders.o
+338 579
+cfn=src/lib/prog_loaders.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/flashmap/kv_pair.c
+0 1
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig/sconfig.tab.o
+45 494
+
+fn=src/arch/x86/memcpy.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/accessors/layout-common.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/cbfs-mkstage.c
+0 1
+
+fn=src/lib/program.ld
+0 1
+
+fn=build/util/cbfstool/linux_trampoline.o
+0 164
+cfn=/root/coreboot/util/cbfstool/linux_trampoline.c
+calls=1 0
+0 1
+
+fn=build/util/cbfstool/lz4hc.o
+0 4312
+cfn=/root/coreboot/util/cbfstool/lz4/lib/lz4hc.c
+calls=1 0
+0 1
+
+fn=src/lib/cbfs.c
+0 1
+
+fn=build/util/cbfstool/ifwitool.o
+0 4715
+cfn=/root/coreboot/util/cbfstool/ifwitool.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pnp_device.o
+338 1700
+cfn=src/device/pnp_device.c
+calls=1 338
+338 1
+
+fn=src/southbridge/intel/common/reset.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/hexdump.o
+338 541
+
+fn=src/lib/bootmem.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/boot.o
+338 382
+
+fn=src/device/smbus_ops.c
+0 1
+
+fn=build/util/cbfstool/lz4frame.o
+0 3168
+cfn=/root/coreboot/util/cbfstool/lz4/lib/lz4frame.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/mmap_boot.o
+338 373
+
+fl=Makefile
+
+fn=build/romstage/lib/bootmode.o
+338 300
+
+fn=src/console/init.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/stack.o
+338 332
+
+fn=src/arch/x86/gdt.c
+0 1
+
+fn=build/util/nvramtool/cli/nvramtool.o
+0 1120
+cfn=/root/coreboot/util/nvramtool/cli/nvramtool.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/Makefile.inc
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/memset.o
+338 272
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/smm/ramstage.a
+287 861
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/smm/smm_module_loader.o
+calls=1 287
+287 835
+
+fl=Makefile
+
+fn=build/romstage/southbridge/intel/common/smbus.o
+338 1187
+cfn=src/southbridge/intel/common/smbus.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/nvramtool/cli/opts.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/romstage_handoff.o
+338 332
+cfn=src/lib/romstage_handoff.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/idt.S
+0 1
+
+fn=/root/coreboot/util/cbfstool/lzma/C/LzFind.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/generated/empty
+146 10
+
+fn=src/arch/x86/pci_ops.c
+0 1
+
+fn=src/lib/hexdump.c
+0 1
+
+fn=src/drivers/pc80/pc/isa-dma.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/console/printk.o
+338 313
+cfn=src/console/printk.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/pci_ops_conf1.o
+338 761
+cfn=src/arch/x86/pci_ops_conf1.c
+calls=1 338
+338 1
+
+fn=3rdparty/vboot/firmware/2lib/2sha256.c
+0 1
+
+fn=src/cpu/qemu-x86/qemu.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/reg_expr.c
+0 1
+
+fn=src/arch/x86/mmap_boot.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/cf9_reset.o
+338 364
+
+fn=src/drivers/pc80/pc/i8259.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/drivers/uart/util.o
+338 361
+
+fl=Makefile
+
+fn=build/bootblock/console/vsprintf.o
+338 346
+cfn=src/console/vsprintf.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/delay.o
+338 269
+cfn=src/lib/delay.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/lapic/boot_cpu.o
+338 304
+
+fl=Makefile
+
+fn=build/bootblock/lib/memcmp.o
+338 270
+cfn=src/lib/memcmp.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/acpi.o
+338 3998
+cfn=src/arch/x86/acpi.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/memchr.o
+338 259
+
+fn=src/arch/x86/memset.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/pc/i8254.o
+338 297
+cfn=src/drivers/pc80/pc/i8254.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/rmodule.o
+338 846
+cfn=src/lib/rmodule.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/ramstage.a
+287 4185
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/usb.o
+calls=1 287
+287 400
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/smbus.o
+calls=1 287
+287 646
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/reset.o
+calls=1 287
+287 310
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/isa.o
+calls=1 287
+287 553
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/ide.o
+calls=1 287
+287 770
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/i82371eb.o
+calls=1 287
+287 271
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/fadt.o
+calls=1 287
+287 595
+cfi=Makefile
+cfn=build/ramstage/southbridge/intel/i82371eb/acpi_tables.o
+calls=1 287
+287 598
+
+fn=src/lib/libgcc.c
+0 1
+
+fn=build/util/nvramtool/cbfs.o
+0 873
+cfn=/root/coreboot/util/nvramtool/cbfs.c
+calls=1 0
+0 1
+
+fl=payloads/external/Makefile.inc
+
+fn=payloads/external/FILO/filo/build/filo.elf
+166 66545
+cfi=payloads/external/Makefile.inc
+cfn=filo
+calls=1 166
+166 66544
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/tsc/delay_tsc.o
+338 704
+
+fl=Makefile
+
+fn=build/ramstage/lib/imd.o
+338 2461
+
+fn=src/arch/x86/postcar_loader.c
+0 1
+
+fn=src/console/printk.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/console/die.o
+338 272
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/pae/pgtbl.o
+338 1548
+
+fn=src/mainboard/emulation/qemu-i440fx/romstage.c
+0 1
+
+fn=src/arch/x86/cf9_reset.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/acpi_tables.o
+338 598
+cfn=src/southbridge/intel/i82371eb/acpi_tables.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/rmodtool.o
+0 626
+cfn=/root/coreboot/util/cbfstool/rmodtool.c
+calls=1 0
+0 1
+
+fn=src/drivers/uart/util.c
+0 1
+
+fn=src/drivers/emulation/qemu/qemu_debugcon.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/accessors/layout-text.c
+0 1
+
+fn=src/lib/version.c
+0 1
+
+fn=src/arch/x86/smbios.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/device_util.o
+338 3025
+cfn=src/device/device_util.c
+calls=1 338
+338 1
+
+fn=src/lib/memchr.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/fadt.o
+338 595
+cfn=src/southbridge/intel/i82371eb/fadt.c
+calls=1 338
+338 1
+
+fn=src/lib/selfboot.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/gcc.o
+338 273
+
+fn=build/util/cbfstool/mem_pool.o
+0 286
+cfn=/root/coreboot/src/commonlib/mem_pool.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/cbfstool/fmd_parser.c_shipped
+0 1
+
+fn=/root/coreboot/util/cbfstool/fmaptool.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/commonlib/region.o
+338 1986
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig/main.o
+45 949
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig/.generated
+calls=1 45
+45 10
+cfn=util/sconfig/main.c
+calls=1 45
+45 1
+
+fl=Makefile
+
+fn=build/romstage/console/init.o
+338 432
+cfn=src/console/init.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/cbfs_and_run.o
+338 232
+cfn=src/arch/x86/cbfs_and_run.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/spi/spi-generic.o
+338 768
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/c_start.o
+338 133
+cfn=src/arch/x86/c_start.S
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/fmap.o
+338 717
+
+fl=Makefile
+
+fn=build/romstage/commonlib/mem_pool.o
+338 348
+
+fn=src/cpu/x86/lapic/lapic_cpu_init.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/rdrand.o
+338 383
+cfn=src/arch/x86/rdrand.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/nvramtool/cmos_ops.c
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.tab.o
+359 5580
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.hash.c
+calls=1 359
+359 72
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.lex.c
+calls=1 359
+359 203
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.tab.c
+calls=1 359
+359 36
+
+fn=src/lib/reset.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/halt.o
+338 210
+cfn=src/lib/halt.c
+calls=1 338
+338 1
+
+fl=util/nvramtool/Makefile.inc
+
+fn=build/util/nvramtool/accessors
+39 11
+
+fn=src/mainboard/emulation/qemu-i440fx/acpi_tables.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/console/vsprintf.o
+338 330
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig/.generated
+11 10
+cfi=util/sconfig/Makefile.inc
+cfn=build/util/sconfig
+calls=1 11
+11 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/memcmp.o
+338 289
+
+fl=Makefile
+
+fn=build/ramstage/lib/trace.o
+338 280
+cfn=src/lib/trace.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/romstage_handoff.o
+338 370
+
+fn=/root/coreboot/util/cbfstool/compress.c
+0 1
+
+fn=src/lib/gcc.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/cbfs.o
+338 12159
+cfi=Makefile.inc
+cfn=build/fmap_config.h
+calls=1 338
+338 11041
+cfn=src/lib/cbfs.c
+calls=1 338
+338 1
+
+fn=src/drivers/pc80/vga/vga_font_8x16.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/cpu_common.o
+338 363
+cfn=src/arch/x86/cpu_common.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/console/vtxprintf.o
+338 1363
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/common/smbus.o
+338 1459
+
+fn=src/device/root_device.c
+0 1
+
+fn=src/arch/x86/bootblock.ld
+0 1
+
+fn=src/mainboard/emulation/qemu-i440fx/devicetree.cb
+0 1
+
+fn=/root/coreboot/util/nvramtool/input_file.c
+0 1
+
+fn=src/device/pci_rom.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/xdr.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/version.o
+338 162
+
+fn=/root/coreboot/util/cbfstool/cbfstool.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/drivers/pc80/rtc/mc146818rtc.o
+338 1047
+cfn=src/drivers/pc80/rtc/mc146818rtc.c
+calls=1 338
+338 1
+
+fn=src/device/cpu_device.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/commonlib/iobuf.o
+338 1989
+cfn=src/commonlib/iobuf.c
+calls=1 338
+338 1
+
+fn=src/device/pci_ops.c
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmd_parser.c
+181 37
+
+fl=Makefile
+
+fn=build/ramstage/lib/cbmem_console.o
+338 667
+
+fl=Makefile
+
+fn=build/ramstage/console/ramstage.a
+287 4129
+cfi=Makefile
+cfn=build/ramstage/console/vtxprintf.o
+calls=1 287
+287 1388
+cfi=Makefile
+cfn=build/ramstage/console/vsprintf.o
+calls=1 287
+287 360
+cfi=Makefile
+cfn=build/ramstage/console/printk.o
+calls=1 287
+287 403
+cfi=Makefile
+cfn=build/ramstage/console/post.o
+calls=1 287
+287 358
+cfi=Makefile
+cfn=build/ramstage/console/init.o
+calls=1 287
+287 527
+cfi=Makefile
+cfn=build/ramstage/console/die.o
+calls=1 287
+287 272
+cfi=Makefile
+cfn=build/ramstage/console/console.o
+calls=1 287
+287 785
+
+fl=payloads/external/Makefile.inc
+
+fn=filo
+158 66544
+
+fn=/root/coreboot/util/cbfstool/default-x86.fmd
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/cbfs/fallback/bootblock.debug
+163 73414
+cfi=Makefile
+cfn=build/bootblock/southbridge/intel/common/reset.o
+calls=1 163
+163 208
+cfi=Makefile
+cfn=build/bootblock/lib/version.o
+calls=1 163
+163 160
+cfi=Makefile
+cfn=build/bootblock/lib/timestamp.o
+calls=1 163
+163 673
+cfi=Makefile
+cfn=build/bootblock/lib/reset.o
+calls=1 163
+163 258
+cfi=Makefile
+cfn=build/bootblock/lib/prog_ops.o
+calls=1 163
+163 291
+cfi=Makefile
+cfn=build/bootblock/lib/prog_loaders.o
+calls=1 163
+163 579
+cfi=Makefile
+cfn=build/bootblock/lib/memcmp.o
+calls=1 163
+163 270
+cfi=Makefile
+cfn=build/bootblock/lib/memchr.o
+calls=1 163
+163 249
+cfi=Makefile
+cfn=build/bootblock/lib/libgcc.o
+calls=1 163
+163 159
+cfi=Makefile
+cfn=build/bootblock/lib/hexdump.o
+calls=1 163
+163 284
+cfi=Makefile
+cfn=build/bootblock/lib/halt.o
+calls=1 163
+163 210
+cfi=Makefile
+cfn=build/bootblock/lib/gcc.o
+calls=1 163
+163 262
+cfi=Makefile
+cfn=build/bootblock/lib/fmap.o
+calls=1 163
+163 614
+cfi=Makefile
+cfn=build/bootblock/lib/delay.o
+calls=1 163
+163 269
+cfi=Makefile
+cfn=build/bootblock/lib/cbmem_console.o
+calls=1 163
+163 435
+cfi=Makefile
+cfn=build/bootblock/lib/cbfs.o
+calls=1 163
+163 12159
+cfi=Makefile
+cfn=build/bootblock/lib/bootmode.o
+calls=1 163
+163 390
+cfi=Makefile
+cfn=build/bootblock/lib/boot_device.o
+calls=1 163
+163 313
+cfi=Makefile
+cfn=build/bootblock/drivers/uart/util.o
+calls=1 163
+163 351
+cfi=Makefile
+cfn=build/bootblock/drivers/uart/uart8250io.o
+calls=1 163
+163 584
+cfi=Makefile
+cfn=build/bootblock/drivers/spi/spi-generic.o
+calls=1 163
+163 625
+cfi=Makefile
+cfn=build/bootblock/drivers/spi/bitbang.o
+calls=1 163
+163 425
+cfi=Makefile
+cfn=build/bootblock/drivers/pc80/rtc/mc146818rtc_boot.o
+calls=1 163
+163 350
+cfi=Makefile
+cfn=build/bootblock/drivers/pc80/rtc/mc146818rtc.o
+calls=1 163
+163 1047
+cfi=Makefile
+cfn=build/bootblock/device/i2c.o
+calls=1 163
+163 410
+cfi=Makefile
+cfn=build/bootblock/device/device_const.o
+calls=1 163
+163 697
+cfi=Makefile
+cfn=build/bootblock/cpu/x86/tsc/delay_tsc.o
+calls=1 163
+163 485
+cfi=Makefile
+cfn=build/bootblock/cpu/x86/pae/pgtbl.o
+calls=1 163
+163 869
+cfi=Makefile
+cfn=build/bootblock/cpu/x86/mtrr/earlymtrr.o
+calls=1 163
+163 345
+cfi=Makefile
+cfn=build/bootblock/cpu/x86/lapic/boot_cpu.o
+calls=1 163
+163 236
+cfi=Makefile
+cfn=build/bootblock/console/vtxprintf.o
+calls=1 163
+163 1356
+cfi=Makefile
+cfn=build/bootblock/console/vsprintf.o
+calls=1 163
+163 346
+cfi=Makefile
+cfn=build/bootblock/console/post.o
+calls=1 163
+163 356
+cfi=Makefile
+cfn=build/bootblock/console/die.o
+calls=1 163
+163 271
+cfi=Makefile
+cfn=build/bootblock/commonlib/region.o
+calls=1 163
+163 1511
+cfi=Makefile
+cfn=build/bootblock/commonlib/mem_pool.o
+calls=1 163
+163 297
+cfi=Makefile
+cfn=build/bootblock/commonlib/lz4_wrapper.o
+calls=1 163
+163 1233
+cfi=Makefile
+cfn=build/bootblock/commonlib/iobuf.o
+calls=1 163
+163 1989
+cfi=Makefile
+cfn=build/bootblock/commonlib/cbfs.o
+calls=1 163
+163 1191
+cfi=Makefile
+cfn=build/bootblock/arch/x86/walkcbfs.o
+calls=1 163
+163 130
+cfi=Makefile
+cfn=build/bootblock/arch/x86/timestamp.o
+calls=1 163
+163 289
+cfi=Makefile
+cfn=build/bootblock/arch/x86/mmap_boot.o
+calls=1 163
+163 485
+cfi=Makefile
+cfn=build/bootblock/arch/x86/memset.o
+calls=1 163
+163 279
+cfi=Makefile
+cfn=build/bootblock/arch/x86/memcpy.o
+calls=1 163
+163 233
+cfi=Makefile
+cfn=build/bootblock/arch/x86/id.o
+calls=1 163
+163 147
+cfi=Makefile
+cfn=build/bootblock/arch/x86/cpu_common.o
+calls=1 163
+163 363
+cfi=Makefile
+cfn=build/bootblock/arch/x86/cf9_reset.o
+calls=1 163
+163 391
+cfi=Makefile
+cfn=build/bootblock/arch/x86/bootblock_romcc.o
+calls=1 163
+163 17875
+cfi=Makefile
+cfn=build/bootblock/arch/x86/bootblock.ld
+calls=1 163
+163 173
+cfi=Makefile
+cfn=build/bootblock/arch/x86/boot.o
+calls=1 163
+163 1169
+cfi=Makefile
+cfn=build/bootblock/mainboard/emulation/qemu-i440fx/static.o
+calls=1 163
+163 18366
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/memcpy.o
+338 251
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/vga/vga.o
+338 1129
+cfn=src/drivers/pc80/vga/vga.c
+calls=1 338
+338 1
+
+fn=src/console/vtxprintf.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/cpu/x86/car.o
+338 445
+cfn=src/cpu/x86/car.c
+calls=1 338
+338 1
+
+fn=src/lib/hardwaremain.c
+0 1
+
+fn=src/lib/prog_loaders.c
+0 1
+
+fn=src/lib/lzmadecode.c
+0 1
+
+fn=build/util/cbfstool/2sha1.o
+0 675
+cfn=3rdparty/vboot/firmware/2lib/2sha1.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/drivers/spi/spi-generic.o
+338 625
+cfn=src/drivers/spi/spi-generic.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/acpigen_dsm.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/reset.o
+338 258
+cfn=src/lib/reset.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/lzma.o
+338 367
+
+fn=src/lib/imd.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/bootmem.o
+338 1291
+cfn=src/lib/bootmem.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/region_file.o
+338 1551
+
+fn=src/drivers/pc80/vga/vga_palette.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/i2c_bus.o
+338 744
+cfn=src/device/i2c_bus.c
+calls=1 338
+338 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/conf
+345 8536
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.tab.o
+calls=1 345
+345 5580
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/conf.o
+calls=1 345
+345 2308
+
+fn=/root/coreboot/util/cbfstool/fmd_scanner.c_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/hardwaremain.o
+338 1414
+cfn=src/lib/hardwaremain.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/elfheaders.c
+0 1
+
+fn=/root/coreboot/util/crossgcc/xgcc/lib/gcc/i386-elf/8.1.0/libgcc.a
+0 1
+
+fl=Makefile.inc
+
+fn=build_complete
+76 9
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/conf.o
+354 2308
+cfn=/root/coreboot/util/kconfig/conf.c
+calls=1 354
+354 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/prog_ops.o
+338 339
+
+fn=build/util/cbfstool/cbfs.o
+0 1148
+cfn=/root/coreboot/src/commonlib/cbfs.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/commonlib/iobuf.o
+338 1905
+
+fl=Makefile
+
+fn=build/romstage/lib/delay.o
+338 282
+
+fl=Makefile
+
+fn=build/bootblock/lib/libgcc.o
+338 159
+cfn=src/lib/libgcc.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/reset.o
+338 340
+
+fn=src/arch/x86/ebda.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/pci_ops.o
+338 276
+cfn=src/arch/x86/pci_ops.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/hexdump.o
+338 585
+
+fn=src/drivers/uart/uart8250io.c
+0 1
+
+fn=src/lib/edid_fill_fb.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/vga/ramstage.a
+287 2706
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/vga/vga_palette.o
+calls=1 287
+287 172
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/vga/vga_io.o
+calls=1 287
+287 1130
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/vga/vga_font_8x16.o
+calls=1 287
+287 242
+cfi=Makefile
+cfn=build/ramstage/drivers/pc80/vga/vga.o
+calls=1 287
+287 1129
+
+fl=Makefile
+
+fn=build/ramstage/cpu/qemu-x86/qemu.o
+338 462
+cfn=src/cpu/qemu-x86/qemu.c
+calls=1 338
+338 1
+
+fn=src/southbridge/intel/i82371eb/fadt.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/device_const.o
+338 812
+
+fn=src/device/cardbus_device.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/lib/boot_device.o
+338 313
+cfn=src/lib/boot_device.c
+calls=1 338
+338 1
+
+fn=src/southbridge/intel/i82371eb/isa.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/console/printk.o
+338 403
+
+fn=build/util/cbfstool/cbfstool.o
+0 4711
+cfn=/root/coreboot/util/cbfstool/cbfstool.c
+calls=1 0
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmd.o
+176 1603
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_scanner.h
+calls=1 176
+176 34
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmd_parser.h
+calls=1 176
+176 34
+cfn=/root/coreboot/util/cbfstool/fmd.c
+calls=1 176
+176 1
+
+fn=/root/coreboot/util/cbfstool/fmd_parser.h_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/ramstage.a
+287 21412
+cfi=Makefile
+cfn=build/ramstage/device/smbus_ops.o
+calls=1 287
+287 626
+cfi=Makefile
+cfn=build/ramstage/device/root_device.o
+calls=1 287
+287 829
+cfi=Makefile
+cfn=build/ramstage/device/pnp_device.o
+calls=1 287
+287 1700
+cfi=Makefile
+cfn=build/ramstage/device/pcix_device.o
+calls=1 287
+287 641
+cfi=Makefile
+cfn=build/ramstage/device/pciexp_device.o
+calls=1 287
+287 879
+cfi=Makefile
+cfn=build/ramstage/device/pci_rom.o
+calls=1 287
+287 1125
+cfi=Makefile
+cfn=build/ramstage/device/pci_ops.o
+calls=1 287
+287 766
+cfi=Makefile
+cfn=build/ramstage/device/pci_early.o
+calls=1 287
+287 293
+cfi=Makefile
+cfn=build/ramstage/device/pci_device.o
+calls=1 287
+287 3878
+cfi=Makefile
+cfn=build/ramstage/device/pci_class.o
+calls=1 287
+287 555
+cfi=Makefile
+cfn=build/ramstage/device/i2c_bus.o
+calls=1 287
+287 744
+cfi=Makefile
+cfn=build/ramstage/device/i2c.o
+calls=1 287
+287 467
+cfi=Makefile
+cfn=build/ramstage/device/device_util.o
+calls=1 287
+287 3025
+cfi=Makefile
+cfn=build/ramstage/device/device_const.o
+calls=1 287
+287 812
+cfi=Makefile
+cfn=build/ramstage/device/device.o
+calls=1 287
+287 3898
+cfi=Makefile
+cfn=build/ramstage/device/cpu_device.o
+calls=1 287
+287 388
+cfi=Makefile
+cfn=build/ramstage/device/cardbus_device.o
+calls=1 287
+287 731
+
+fl=Makefile
+
+fn=build/romstage/lib/spd_bin.o
+338 666
+cfn=src/lib/spd_bin.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/device/dram/ddr3.o
+338 1946
+cfn=src/device/dram/ddr3.c
+calls=1 338
+338 1
+
+fn=build/util/cbfstool/cbfs-mkstage.o
+0 1458
+cfn=/root/coreboot/util/cbfstool/cbfs-mkstage.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/memset.o
+338 289
+
+fn=src/console/vsprintf.c
+0 1
+
+fn=src/lib/delay.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/cmos_layout.bin
+30 30
+
+fn=/root/coreboot/util/romcc/romcc.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/hexdump.c
+0 1
+
+fl=util/cbfstool/Makefile.inc
+
+fn=build/util/cbfstool/fmd_scanner.c
+181 36
+
+fl=Makefile
+
+fn=build/bootblock/lib/bootmode.o
+338 390
+cfn=src/lib/bootmode.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/drivers/pc80/rtc/mc146818rtc_boot.o
+338 350
+cfn=src/drivers/pc80/rtc/mc146818rtc_boot.c
+calls=1 338
+338 1
+
+fl=Makefile.inc
+
+fn=build/fmap.fmap
+969 11033
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/fmaptool
+calls=1 969
+969 10961
+cfi=Makefile.inc
+cfn=build/fmap.fmd
+calls=1 969
+969 46
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/ide.o
+338 770
+cfn=src/southbridge/intel/i82371eb/ide.c
+calls=1 338
+338 1
+
+fn=src/arch/x86/pci_ops_conf1.c
+0 1
+
+fn=build/util/cbfstool/compress.o
+0 653
+cfn=/root/coreboot/util/cbfstool/compress.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/nvramtool/common.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/accessors/cmos-mem.c
+0 1
+
+fn=src/drivers/pc80/pc/keyboard.c
+0 1
+
+fn=/root/coreboot/util/nvramtool/accessors/layout-bin.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/uart/util.o
+338 630
+
+fl=Makefile
+
+fn=build/romstage/southbridge/intel/common/pmbase.o
+338 792
+cfn=src/southbridge/intel/common/pmbase.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/lib/prog_loaders.o
+338 537
+
+fn=/root/coreboot/util/sconfig/sconfig.tab.c_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/b64_decode.o
+338 441
+cfn=src/lib/b64_decode.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/drivers/uart/uart8250io.o
+338 584
+cfn=src/drivers/uart/uart8250io.c
+calls=1 338
+338 1
+
+fn=src/mainboard/emulation/qemu-i440fx/cache_as_ram.inc
+0 1
+
+fn=src/lib/spd_bin.c
+0 1
+
+fn=src/device/dram/ddr3.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/halt.o
+338 224
+
+fl=Makefile
+
+fn=build/romstage/device/pci_early.o
+338 562
+cfn=src/device/pci_early.c
+calls=1 338
+338 1
+
+fn=src/mainboard/emulation/qemu-i440fx/northbridge.c
+0 1
+
+fn=src/mainboard/emulation/qemu-i440fx/fw_cfg.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/mainboard/emulation/qemu-i440fx/romstage.o
+338 471
+cfn=src/mainboard/emulation/qemu-i440fx/romstage.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/lzma/C/LzmaDec.c
+0 1
+
+fn=src/southbridge/intel/i82371eb/reset.c
+0 1
+
+fn=/root/coreboot/util/kconfig/zconf.hash.c_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/smbus_ops.o
+338 626
+cfn=src/device/smbus_ops.c
+calls=1 338
+338 1
+
+fn=src/lib/list.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/spi/ramstage.a
+287 1215
+cfi=Makefile
+cfn=build/ramstage/drivers/spi/spi-generic.o
+calls=1 287
+287 768
+cfi=Makefile
+cfn=build/ramstage/drivers/spi/bitbang.o
+calls=1 287
+287 420
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/cpu_common.o
+338 307
+
+fn=build/util/nvramtool/accessors/layout-bin.o
+0 612
+cfn=/root/coreboot/util/nvramtool/accessors/layout-bin.c
+calls=1 0
+0 1
+
+fn=src/cpu/x86/smm/smm_module_loader.c
+0 1
+
+fn=build/util/cbfstool/fmd_parser.h
+0 34
+cfn=/root/coreboot/util/cbfstool/fmd_parser.h_shipped
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/cbfstool/ifwitool.c
+0 1
+
+fn=src/southbridge/intel/common/pmbase.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/drivers/spi/bitbang.o
+338 392
+
+fl=Makefile
+
+fn=build/ramstage/lib/hexstrtobin.o
+338 476
+cfn=src/lib/hexstrtobin.c
+calls=1 338
+338 1
+
+fn=src/mainboard/emulation/qemu-i440fx/irq_tables.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/mainboard/emulation/qemu-i440fx/acpi_tables.o
+338 478
+cfn=src/mainboard/emulation/qemu-i440fx/acpi_tables.c
+calls=1 338
+338 1
+
+fl=Makefile.inc
+
+fn=build/fmap_config.h
+964 11041
+cfi=Makefile.inc
+cfn=build/fmap.fmap
+calls=1 964
+964 11033
+
+fn=3rdparty/vboot/firmware/2lib/2sha512.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/generated/assembly.inc
+61 20
+cfn=src/mainboard/emulation/qemu-i440fx/cache_as_ram.inc
+calls=1 61
+61 1
+
+fn=build/util/cbfstool/lz4_wrapper.o
+0 1036
+cfn=/root/coreboot/src/commonlib/lz4_wrapper.c
+calls=1 0
+0 1
+
+fn=/root/coreboot/util/cbfstool/cbfs_sections.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/drivers/pc80/rtc/mc146818rtc.o
+338 1012
+
+fn=/root/coreboot/util/cbfstool/flashmap/fmap.c
+0 1
+
+fn=src/lib/halt.c
+0 1
+
+fn=src/device/pci_early.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/vga/vga_palette.o
+338 172
+cfn=src/drivers/pc80/vga/vga_palette.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/pc80/vga/vga_font_8x16.o
+338 242
+cfn=src/drivers/pc80/vga/vga_font_8x16.c
+calls=1 338
+338 1
+
+fn=build/util/nvramtool/lbtable.o
+0 698
+cfn=/root/coreboot/util/nvramtool/lbtable.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/imd_cbmem.o
+338 864
+cfn=src/lib/imd_cbmem.c
+calls=1 338
+338 1
+
+fn=src/lib/prog_ops.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/console/vsprintf.o
+338 360
+
+fl=Makefile
+
+fn=build/ramstage/lib/gcc.o
+338 347
+
+fn=/root/coreboot/util/cbfstool/fmap_from_fmd.c
+0 1
+
+fn=build/util/sconfig/sconfig.tab.c
+0 36
+cfn=/root/coreboot/util/sconfig/sconfig.tab.c_shipped
+calls=1 0
+0 1
+
+fl=Makefile.inc
+
+fn=build/rmodtool
+506 13
+
+fl=Makefile
+
+fn=build/ramstage/console/vtxprintf.o
+338 1388
+
+fn=/root/coreboot/util/cbfstool/flashmap/valstr.c
+0 1
+
+fl=src/arch/x86/Makefile.inc
+
+fn=build/cbfs/fallback/romstage.debug
+239 48920
+cfi=Makefile
+cfn=build/romstage/southbridge/intel/i82371eb/early_smbus.o
+calls=1 239
+239 506
+cfi=Makefile
+cfn=build/romstage/southbridge/intel/i82371eb/early_pm.o
+calls=1 239
+239 475
+cfi=Makefile
+cfn=build/romstage/southbridge/intel/common/smbus.o
+calls=1 239
+239 1187
+cfi=Makefile
+cfn=build/romstage/southbridge/intel/common/reset.o
+calls=1 239
+239 217
+cfi=Makefile
+cfn=build/romstage/southbridge/intel/common/pmbase.o
+calls=1 239
+239 792
+cfi=Makefile
+cfn=build/romstage/mainboard/emulation/qemu-i440fx/romstage.o
+calls=1 239
+239 471
+cfi=Makefile
+cfn=build/romstage/lib/version.o
+calls=1 239
+239 161
+cfi=Makefile
+cfn=build/romstage/lib/timestamp.o
+calls=1 239
+239 918
+cfi=Makefile
+cfn=build/romstage/lib/stack.o
+calls=1 239
+239 325
+cfi=Makefile
+cfn=build/romstage/lib/spd_bin.o
+calls=1 239
+239 666
+cfi=Makefile
+cfn=build/romstage/lib/selfboot.o
+calls=1 239
+239 924
+cfi=Makefile
+cfn=build/romstage/lib/romstage_stack.o
+calls=1 239
+239 327
+cfi=Makefile
+cfn=build/romstage/lib/romstage_handoff.o
+calls=1 239
+239 332
+cfi=Makefile
+cfn=build/romstage/lib/rmodule.o
+calls=1 239
+239 846
+cfi=Makefile
+cfn=build/romstage/lib/reset.o
+calls=1 239
+239 263
+cfi=Makefile
+cfn=build/romstage/lib/region_file.o
+calls=1 239
+239 1016
+cfi=Makefile
+cfn=build/romstage/lib/ramtest.o
+calls=1 239
+239 671
+cfi=Makefile
+cfn=build/romstage/lib/program.ld
+calls=1 239
+239 105
+cfi=Makefile
+cfn=build/romstage/lib/prog_ops.o
+calls=1 239
+239 295
+cfi=Makefile
+cfn=build/romstage/lib/prog_loaders.o
+calls=1 239
+239 537
+cfi=Makefile
+cfn=build/romstage/lib/memrange.o
+calls=1 239
+239 1212
+cfi=Makefile
+cfn=build/romstage/lib/memcmp.o
+calls=1 239
+239 265
+cfi=Makefile
+cfn=build/romstage/lib/memchr.o
+calls=1 239
+239 259
+cfi=Makefile
+cfn=build/romstage/lib/lzmadecode.o
+calls=1 239
+239 2395
+cfi=Makefile
+cfn=build/romstage/lib/lzma.o
+calls=1 239
+239 377
+cfi=Makefile
+cfn=build/romstage/lib/libgcc.o
+calls=1 239
+239 165
+cfi=Makefile
+cfn=build/romstage/lib/imd_cbmem.o
+calls=1 239
+239 864
+cfi=Makefile
+cfn=build/romstage/lib/imd.o
+calls=1 239
+239 1915
+cfi=Makefile
+cfn=build/romstage/lib/hexdump.o
+calls=1 239
+239 541
+cfi=Makefile
+cfn=build/romstage/lib/halt.o
+calls=1 239
+239 224
+cfi=Makefile
+cfn=build/romstage/lib/gcc.o
+calls=1 239
+239 273
+cfi=Makefile
+cfn=build/romstage/lib/fmap.o
+calls=1 239
+239 641
+cfi=Makefile
+cfn=build/romstage/lib/delay.o
+calls=1 239
+239 282
+cfi=Makefile
+cfn=build/romstage/lib/compute_ip_checksum.o
+calls=1 239
+239 338
+cfi=Makefile
+cfn=build/romstage/lib/cbmem_stage_cache.o
+calls=1 239
+239 568
+cfi=Makefile
+cfn=build/romstage/lib/cbmem_console.o
+calls=1 239
+239 533
+cfi=Makefile
+cfn=build/romstage/lib/cbmem_common.o
+calls=1 239
+239 306
+cfi=Makefile
+cfn=build/romstage/lib/cbfs.o
+calls=1 239
+239 1156
+cfi=Makefile
+cfn=build/romstage/lib/bootmode.o
+calls=1 239
+239 300
+cfi=Makefile
+cfn=build/romstage/lib/boot_device.o
+calls=1 239
+239 313
+cfi=Makefile
+cfn=build/romstage/drivers/uart/util.o
+calls=1 239
+239 361
+cfi=Makefile
+cfn=build/romstage/drivers/uart/uart8250io.o
+calls=1 239
+239 563
+cfi=Makefile
+cfn=build/romstage/drivers/spi/spi-generic.o
+calls=1 239
+239 622
+cfi=Makefile
+cfn=build/romstage/drivers/spi/bitbang.o
+calls=1 239
+239 392
+cfi=Makefile
+cfn=build/romstage/drivers/pc80/rtc/mc146818rtc.o
+calls=1 239
+239 1012
+cfi=Makefile
+cfn=build/romstage/drivers/emulation/qemu/qemu_debugcon.o
+calls=1 239
+239 336
+cfi=Makefile
+cfn=build/romstage/device/pci_early.o
+calls=1 239
+239 562
+cfi=Makefile
+cfn=build/romstage/device/i2c.o
+calls=1 239
+239 386
+cfi=Makefile
+cfn=build/romstage/device/dram/ddr3.o
+calls=1 239
+239 1946
+cfi=Makefile
+cfn=build/romstage/device/dram/ddr2.o
+calls=1 239
+239 1947
+cfi=Makefile
+cfn=build/romstage/device/device_const.o
+calls=1 239
+239 701
+cfi=Makefile
+cfn=build/romstage/cpu/x86/pae/pgtbl.o
+calls=1 239
+239 927
+cfi=Makefile
+cfn=build/romstage/cpu/x86/mtrr/earlymtrr.o
+calls=1 239
+239 336
+cfi=Makefile
+cfn=build/romstage/cpu/x86/lapic/boot_cpu.o
+calls=1 239
+239 243
+cfi=Makefile
+cfn=build/romstage/cpu/x86/car.o
+calls=1 239
+239 445
+cfi=Makefile
+cfn=build/romstage/console/vtxprintf.o
+calls=1 239
+239 1363
+cfi=Makefile
+cfn=build/romstage/console/vsprintf.o
+calls=1 239
+239 330
+cfi=Makefile
+cfn=build/romstage/console/printk.o
+calls=1 239
+239 313
+cfi=Makefile
+cfn=build/romstage/console/post.o
+calls=1 239
+239 317
+cfi=Makefile
+cfn=build/romstage/console/init.o
+calls=1 239
+239 432
+cfi=Makefile
+cfn=build/romstage/console/die.o
+calls=1 239
+239 326
+cfi=Makefile
+cfn=build/romstage/console/console.o
+calls=1 239
+239 445
+cfi=Makefile
+cfn=build/romstage/commonlib/region.o
+calls=1 239
+239 1469
+cfi=Makefile
+cfn=build/romstage/commonlib/mem_pool.o
+calls=1 239
+239 348
+cfi=Makefile
+cfn=build/romstage/commonlib/lz4_wrapper.o
+calls=1 239
+239 1069
+cfi=Makefile
+cfn=build/romstage/commonlib/iobuf.o
+calls=1 239
+239 1905
+cfi=Makefile
+cfn=build/romstage/commonlib/cbfs.o
+calls=1 239
+239 1209
+cfi=Makefile
+cfn=build/romstage/arch/x86/timestamp.o
+calls=1 239
+239 256
+cfi=Makefile
+cfn=build/romstage/arch/x86/postcar_loader.o
+calls=1 239
+239 659
+cfi=Makefile
+cfn=build/romstage/arch/x86/mmap_boot.o
+calls=1 239
+239 373
+cfi=Makefile
+cfn=build/romstage/arch/x86/memset.o
+calls=1 239
+239 272
+cfi=Makefile
+cfn=build/romstage/arch/x86/memmove.o
+calls=1 239
+239 240
+cfi=Makefile
+cfn=build/romstage/arch/x86/memlayout.ld
+calls=1 239
+239 133
+cfi=Makefile
+cfn=build/romstage/arch/x86/memcpy.o
+calls=1 239
+239 232
+cfi=Makefile
+cfn=build/romstage/arch/x86/cpu_common.o
+calls=1 239
+239 307
+cfi=Makefile
+cfn=build/romstage/arch/x86/cf9_reset.o
+calls=1 239
+239 364
+cfi=Makefile
+cfn=build/romstage/arch/x86/cbmem.o
+calls=1 239
+239 331
+cfi=Makefile
+cfn=build/romstage/arch/x86/cbfs_and_run.o
+calls=1 239
+239 232
+cfi=Makefile
+cfn=build/romstage/arch/x86/boot.o
+calls=1 239
+239 312
+cfi=Makefile
+cfn=build/romstage/arch/x86/assembly_entry.o
+calls=1 239
+239 168
+cfi=Makefile
+cfn=build/romstage/mainboard/emulation/qemu-i440fx/static.o
+calls=1 239
+239 298
+
+fn=src/arch/x86/cpu_common.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/fmd_scanner.h_shipped
+0 1
+
+fn=/root/coreboot/util/cbfstool/cbfs-mkpayload.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/cpu_device.o
+338 388
+cfn=src/device/cpu_device.c
+calls=1 338
+338 1
+
+fn=src/device/pci_device.c
+0 1
+
+fn=src/device/pnp_device.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/bootblock.ld
+338 173
+cfi=src/arch/x86/Makefile.inc
+cfn=build/generated/bootblock.ld
+calls=1 338
+338 45
+cfn=src/arch/x86/bootblock.ld
+calls=1 338
+338 1
+
+fn=src/arch/x86/acpi.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/wrdd.o
+338 252
+cfn=src/lib/wrdd.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/bootblock/arch/x86/boot.o
+338 1169
+cfn=src/arch/x86/boot.c
+calls=1 338
+338 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.hash.c
+373 72
+cfn=/root/coreboot/util/kconfig/zconf.hash.c_shipped
+calls=1 373
+373 1
+
+fn=src/drivers/pc80/rtc/mc146818rtc.c
+0 1
+
+fn=/root/coreboot/util/cbfstool/linux_trampoline.c
+0 1
+
+fn=src/commonlib/iobuf.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/program.ld
+338 105
+cfn=src/lib/program.ld
+calls=1 338
+338 1
+
+fn=src/arch/x86/acpi_pld.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/drivers/spi/spi-generic.o
+338 622
+
+fn=build/cbfs/fallback/bootblock.bin
+0 74660
+cfi=Makefile.inc
+cfn=build/cbfs/fallback/bootblock.raw.bin
+calls=1 0
+0 74647
+
+fl=Makefile
+
+fn=build/ramstage/drivers/emulation/qemu/bochs.o
+338 436
+cfn=src/drivers/emulation/qemu/bochs.c
+calls=1 338
+338 1
+
+fn=src/lib/wrdd.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/smbios.o
+338 2996
+cfn=src/arch/x86/smbios.c
+calls=1 338
+338 1
+
+fn=src/lib/edid.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/prog_loaders.o
+338 893
+
+fl=Makefile
+
+fn=build/ramstage/lib/lzmadecode.o
+338 2369
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/ramstage.a
+287 431
+cfi=Makefile
+cfn=build/ramstage/cpu/x86/backup_default_smm.o
+calls=1 287
+287 405
+
+fn=src/arch/x86/memlayout.ld
+0 1
+
+fn=src/cpu/x86/mtrr/mtrr.c
+0 1
+
+fn=src/lib/ramtest.c
+0 1
+
+fn=src/lib/cbmem_stage_cache.c
+0 1
+
+fn=build/util/nvramtool/compute_ip_checksum.o
+0 268
+cfn=/root/coreboot/util/nvramtool/compute_ip_checksum.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/console/post.o
+338 356
+cfn=src/console/post.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/nvramtool/cmos_lowlevel.c
+0 1
+
+fn=src/drivers/spi/spi-generic.c
+0 1
+
+fn=src/device/pci_class.c
+0 1
+
+fl=util/sconfig/Makefile.inc
+
+fn=build/util/sconfig
+8 1
+
+fl=util/nvramtool/Makefile.inc
+
+fn=build/util/nvramtool
+39 14
+
+fn=src/cpu/x86/lapic/secondary.S
+0 1
+
+fl=payloads/external/Makefile.inc
+
+fn=payloads/external/FILO/filo/build/version.h
+168 1
+
+fl=Makefile.inc
+
+fn=build/ifwitool
+509 4940
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/ifwitool
+calls=1 509
+509 4925
+
+fn=build/build.ht
+0 1
+
+fn=build/util/nvramtool/layout.o
+0 579
+cfn=/root/coreboot/util/nvramtool/layout.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/acpi_device.o
+338 2483
+cfn=src/arch/x86/acpi_device.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/romstage/commonlib/cbfs.o
+338 1209
+
+fn=build/util/cbfstool/fmd_scanner.h
+0 34
+cfn=/root/coreboot/util/cbfstool/fmd_scanner.h_shipped
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/cpu/x86/lapic/lapic_cpu_init.o
+338 1992
+cfn=src/cpu/x86/lapic/lapic_cpu_init.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pci_ops.o
+338 766
+cfn=src/device/pci_ops.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/cbfstool/lz4/lib/xxhash.c
+0 1
+
+fn=build/util/cbfstool/region.o
+0 1319
+cfn=/root/coreboot/src/commonlib/region.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/lib/boot_device.o
+338 412
+
+fn=/root/coreboot/util/kconfig/zconf.tab.c_shipped
+0 1
+
+fn=src/lib/fallback_boot.c
+0 1
+
+fn=src/arch/x86/acpi_device.c
+0 1
+
+fl=Makefile
+
+fn=build/bootblock/commonlib/lz4_wrapper.o
+338 1233
+cfn=src/commonlib/lz4_wrapper.c
+calls=1 338
+338 1
+
+fn=/root/coreboot/util/sconfig/sconfig.tab.h_shipped
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/exception.o
+338 729
+cfn=src/arch/x86/exception.c
+calls=1 338
+338 1
+
+fn=src/lib/imd_cbmem.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/root_device.o
+338 829
+cfn=src/device/root_device.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/arch/x86/cf9_reset.o
+338 484
+
+fl=Makefile
+
+fn=build/romstage/commonlib/lz4_wrapper.o
+338 1069
+
+fn=src/cpu/x86/car.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/southbridge/intel/i82371eb/isa.o
+338 553
+cfn=src/southbridge/intel/i82371eb/isa.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=real-all
+173 443271
+cfi=Makefile.inc
+cfn=real-target
+calls=1 173
+173 443271
+
+fl=Makefile
+
+fn=build/bootblock/drivers/spi/bitbang.o
+338 425
+cfn=src/drivers/spi/bitbang.c
+calls=1 338
+338 1
+
+fn=src/lib/romstage_handoff.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/arch/x86/postcar_loader.o
+338 659
+cfn=src/arch/x86/postcar_loader.c
+calls=1 338
+338 1
+
+fn=build/cbfs/fallback/bootblock.elf
+0 74606
+cfi=src/arch/x86/Makefile.inc
+cfn=build/cbfs/fallback/bootblock.debug
+calls=1 0
+0 73414
+
+fn=src/lib/boot_device.c
+0 1
+
+fn=src/drivers/emulation/qemu/bochs.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/console/console.o
+338 445
+cfn=src/console/console.c
+calls=1 338
+338 1
+
+fn=src/lib/hexstrtobin.c
+0 1
+
+fn=src/device/device.c
+0 1
+
+fl=Makefile
+
+fn=build/romstage/drivers/uart/uart8250io.o
+338 563
+
+fn=src/mainboard/emulation/qemu-i440fx/mainboard.c
+0 1
+
+fn=build/util/cbfstool/cbfs_image.o
+0 7038
+cfn=/root/coreboot/util/cbfstool/cbfs_image.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/pciexp_device.o
+338 879
+cfn=src/device/pciexp_device.c
+calls=1 338
+338 1
+
+fl=Makefile
+
+fn=build/ramstage/drivers/emulation/qemu/ramstage.a
+287 1291
+cfi=Makefile
+cfn=build/ramstage/drivers/emulation/qemu/qemu_debugcon.o
+calls=1 287
+287 386
+cfi=Makefile
+cfn=build/ramstage/drivers/emulation/qemu/cirrus.o
+calls=1 287
+287 438
+cfi=Makefile
+cfn=build/ramstage/drivers/emulation/qemu/bochs.o
+calls=1 287
+287 436
+
+fl=Makefile
+
+fn=build/bootblock/mainboard/emulation/qemu-i440fx/static.o
+338 18366
+cfi=src/arch/x86/Makefile.inc
+cfn=build/option_table.h
+calls=1 338
+338 8979
+cfi=Makefile.inc
+cfn=build/mainboard/emulation/qemu-i440fx/static.c
+calls=1 338
+338 3024
+
+fn=build/util/cbfstool/2sha512.o
+0 911
+cfn=3rdparty/vboot/firmware/2lib/2sha512.c
+calls=1 0
+0 1
+
+fl=Makefile
+
+fn=build/romstage/lib/version.o
+338 161
+
+fl=Makefile
+
+fn=build/bootblock/device/i2c.o
+338 410
+cfn=src/device/i2c.c
+calls=1 338
+338 1
+
+fn=src/drivers/pc80/rtc/mc146818rtc_boot.c
+0 1
+
+fn=build/util/cbfstool/cbfs-payload-linux.o
+0 909
+cfn=/root/coreboot/util/cbfstool/cbfs-payload-linux.c
+calls=1 0
+0 1
+
+fn=src/southbridge/intel/i82371eb/i82371eb.c
+0 1
+
+fn=src/southbridge/intel/i82371eb/smbus.c
+0 1
+
+fn=src/lib/b64_decode.c
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.tab.c
+375 36
+cfn=/root/coreboot/util/kconfig/zconf.tab.c_shipped
+calls=1 375
+375 1
+
+fn=src/device/pciexp_device.c
+0 1
+
+fl=Makefile
+
+fn=build/ramstage/device/cardbus_device.o
+338 731
+cfn=src/device/cardbus_device.c
+calls=1 338
+338 1
+
+fn=build/cbfs/fallback/ramstage.debug.rmod
+0 141203
+cfi=util/cbfstool/Makefile.inc
+cfn=build/util/cbfstool/rmodtool
+calls=1 0
+0 9562
+cfi=src/arch/x86/Makefile.inc
+cfn=build/cbfs/fallback/ramstage.debug
+calls=1 0
+0 131595
+
+fn=src/console/console.c
+0 1
+

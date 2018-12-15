@@ -1,0 +1,95 @@
+version: 1
+creator: remake 4.1+dbg-1.4
+cmd: remake DOTCONFIG=/root/coreboot/.config DEFCONFIG=build/mainboard/emulation/qemu-i440fx/cbfs-file.8tVAXJ.out.tmp2 savedefconfig
+pid: 23288
+
+desc: Trigger: Normal program termination
+desc: Node: Targets
+
+positions: line
+events: 100usec
+summary: 1411
+
+fn=/root/coreboot/util/kconfig/zconf.lex.c_shipped
+0 1
+
+fn=/root/coreboot/util/kconfig/conf.c
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.lex.c
+371 1
+cfn=/root/coreboot/util/kconfig/zconf.lex.c_shipped
+calls=1 371
+371 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.tab.o
+359 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.hash.c
+calls=1 359
+359 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.lex.c
+calls=1 359
+359 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.tab.c
+calls=1 359
+359 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/conf
+345 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/zconf.tab.o
+calls=1 345
+345 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/conf.o
+calls=1 345
+345 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/conf.o
+354 1
+cfn=/root/coreboot/util/kconfig/conf.c
+calls=1 354
+354 1
+
+fn=/root/coreboot/util/kconfig/zconf.hash.c_shipped
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.hash.c
+373 1
+cfn=/root/coreboot/util/kconfig/zconf.hash.c_shipped
+calls=1 373
+373 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=savedefconfig
+91 1
+cfi=/root/coreboot/util/kconfig/Makefile
+cfn=build/util/kconfig/conf
+calls=1 91
+91 1
+
+fn=/root/coreboot/util/kconfig/zconf.tab.c_shipped
+0 1
+
+fl=/root/coreboot/util/kconfig/Makefile
+
+fn=build/util/kconfig/zconf.tab.c
+375 1
+cfn=/root/coreboot/util/kconfig/zconf.tab.c_shipped
+calls=1 375
+375 1
+

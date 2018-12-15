@@ -1,0 +1,26 @@
+digraph {
+	graph [fontname=Arial, nodesep=0.125, ranksep=0.25];
+	node [fontcolor=white, fontname=Arial, height=0, shape=box, style=filled, width=0];
+	edge [fontname=Arial];
+	"/root/coreboot/util/kconfig/conf.c" [color="#0d367e", fontcolor="#ffffff", fontsize="10.00", label="/root/coreboot/util/kconfig/conf.c\n9.09%\n(9.09%)\n1×"];
+	"/root/coreboot/util/kconfig/zconf.hash.c_shipped" [color="#0d367e", fontcolor="#ffffff", fontsize="10.00", label="/root/coreboot/util/kconfig/zconf.hash.c_shipped\n9.09%\n(9.09%)\n1×"];
+	"/root/coreboot/util/kconfig/zconf.lex.c_shipped" [color="#0d367e", fontcolor="#ffffff", fontsize="10.00", label="/root/coreboot/util/kconfig/zconf.lex.c_shipped\n9.09%\n(9.09%)\n1×"];
+	"/root/coreboot/util/kconfig/zconf.tab.c_shipped" [color="#0d367e", fontcolor="#ffffff", fontsize="10.00", label="/root/coreboot/util/kconfig/zconf.tab.c_shipped\n9.09%\n(9.09%)\n1×"];
+	"build/util/kconfig/conf" [color="#f15902", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/conf\n90.91%\n(9.09%)\n1×"];
+	"build/util/kconfig/conf" -> "build/util/kconfig/conf.o" [arrowsize="0.43", color="#0c688a", fontcolor="#0c688a", fontsize="10.00", label="18.18%\n1×", labeldistance="0.73", penwidth="0.73"];
+	"build/util/kconfig/conf" -> "build/util/kconfig/zconf.tab.o" [arrowsize="0.80", color="#71c908", fontcolor="#71c908", fontsize="10.00", label="63.64%\n1×", labeldistance="2.55", penwidth="2.55"];
+	"build/util/kconfig/conf.o" [color="#0c688a", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/conf.o\n18.18%\n(9.09%)\n1×"];
+	"build/util/kconfig/conf.o" -> "/root/coreboot/util/kconfig/conf.c" [arrowsize="0.35", color="#0d367e", fontcolor="#0d367e", fontsize="10.00", label="9.09%\n1×", labeldistance="0.50", penwidth="0.50"];
+	"build/util/kconfig/zconf.hash.c" [color="#0c688a", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/zconf.hash.c\n18.18%\n(9.09%)\n1×"];
+	"build/util/kconfig/zconf.hash.c" -> "/root/coreboot/util/kconfig/zconf.hash.c_shipped" [arrowsize="0.35", color="#0d367e", fontcolor="#0d367e", fontsize="10.00", label="9.09%\n1×", labeldistance="0.50", penwidth="0.50"];
+	"build/util/kconfig/zconf.lex.c" [color="#0c688a", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/zconf.lex.c\n18.18%\n(9.09%)\n1×"];
+	"build/util/kconfig/zconf.lex.c" -> "/root/coreboot/util/kconfig/zconf.lex.c_shipped" [arrowsize="0.35", color="#0d367e", fontcolor="#0d367e", fontsize="10.00", label="9.09%\n1×", labeldistance="0.50", penwidth="0.50"];
+	"build/util/kconfig/zconf.tab.c" [color="#0c688a", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/zconf.tab.c\n18.18%\n(9.09%)\n1×"];
+	"build/util/kconfig/zconf.tab.c" -> "/root/coreboot/util/kconfig/zconf.tab.c_shipped" [arrowsize="0.35", color="#0d367e", fontcolor="#0d367e", fontsize="10.00", label="9.09%\n1×", labeldistance="0.50", penwidth="0.50"];
+	"build/util/kconfig/zconf.tab.o" [color="#71c908", fontcolor="#ffffff", fontsize="10.00", label="build/util/kconfig/zconf.tab.o\n63.64%\n(9.09%)\n1×"];
+	"build/util/kconfig/zconf.tab.o" -> "build/util/kconfig/zconf.hash.c" [arrowsize="0.43", color="#0c688a", fontcolor="#0c688a", fontsize="10.00", label="18.18%\n1×", labeldistance="0.73", penwidth="0.73"];
+	"build/util/kconfig/zconf.tab.o" -> "build/util/kconfig/zconf.lex.c" [arrowsize="0.43", color="#0c688a", fontcolor="#0c688a", fontsize="10.00", label="18.18%\n1×", labeldistance="0.73", penwidth="0.73"];
+	"build/util/kconfig/zconf.tab.o" -> "build/util/kconfig/zconf.tab.c" [arrowsize="0.43", color="#0c688a", fontcolor="#0c688a", fontsize="10.00", label="18.18%\n1×", labeldistance="0.73", penwidth="0.73"];
+	oldconfig [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="oldconfig\n100.00%\n(9.09%)\n0×"];
+	oldconfig -> "build/util/kconfig/conf" [arrowsize="0.95", color="#f15902", fontcolor="#f15902", fontsize="10.00", label="90.91%\n1×", labeldistance="3.64", penwidth="3.64"];
+}

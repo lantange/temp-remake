@@ -1,0 +1,53 @@
+version: 1
+creator: remake 4.1+dbg-1.4
+cmd: remake -C payloads/external/FILO HOSTCC=gcc CC=/root/coreboot/util/crossgcc/xgcc/bin/i386-elf-gcc LD=/root/coreboot/util/crossgcc/xgcc/bin/i386-elf-ld.bfd  OBJDUMP=/root/coreboot/util/crossgcc/xgcc/bin/i386-elf-objdump OBJCOPY=/root/coreboot/util/crossgcc/xgcc/bin/i386-elf-objcopy STRIP=/root/coreboot/util/crossgcc/xgcc/bin/i386-elf-strip CONFIG_FILO_MASTER=y CONFIG_FILO_STABLE=
+pid: 23324
+
+desc: Trigger: Normal program termination
+desc: Node: Targets
+
+positions: line
+events: 100usec
+summary: 66523
+
+fl=Makefile
+
+fn=libpayload
+42 30383
+cfi=Makefile
+cfn=checkout
+calls=1 42
+42 16352
+
+fl=Makefile
+
+fn=config
+29 32069
+cfi=Makefile
+cfn=libpayload
+calls=1 29
+29 30383
+
+fl=Makefile
+
+fn=all
+16 1
+cfi=Makefile
+cfn=filo
+calls=1 16
+16 66513
+
+fl=Makefile
+
+fn=filo
+38 66513
+cfi=Makefile
+cfn=config
+calls=1 38
+38 32069
+
+fl=Makefile
+
+fn=checkout
+18 16352
+

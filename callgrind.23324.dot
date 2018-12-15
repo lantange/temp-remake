@@ -1,0 +1,14 @@
+digraph {
+	graph [fontname=Arial, nodesep=0.125, ranksep=0.25];
+	node [fontcolor=white, fontname=Arial, height=0, shape=box, style=filled, width=0];
+	edge [fontname=Arial];
+	all [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="all\n100.00%\n(0.00%)\n0×"];
+	all -> filo [arrowsize="1.00", color="#ff0000", fontcolor="#ff0000", fontsize="10.00", label="100.00%\n1×", labeldistance="4.00", penwidth="4.00"];
+	checkout [color="#0d4181", fontcolor="#ffffff", fontsize="10.00", label="checkout\n11.25%\n(11.25%)\n1×"];
+	config [color="#27bc09", fontcolor="#ffffff", fontsize="10.00", label="config\n54.23%\n(22.07%)\n1×"];
+	config -> libpayload [arrowsize="0.57", color="#0b9d73", fontcolor="#0b9d73", fontsize="10.00", label="32.16%\n1×", labeldistance="1.29", penwidth="1.29"];
+	filo [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="filo\n100.00%\n(45.77%)\n1×"];
+	filo -> config [arrowsize="0.74", color="#27bc09", fontcolor="#27bc09", fontsize="10.00", label="54.23%\n1×", labeldistance="2.17", penwidth="2.17"];
+	libpayload [color="#0b9d73", fontcolor="#ffffff", fontsize="10.00", label="libpayload\n32.16%\n(20.91%)\n1×"];
+	libpayload -> checkout [arrowsize="0.35", color="#0d4181", fontcolor="#0d4181", fontsize="10.00", label="11.25%\n1×", labeldistance="0.50", penwidth="0.50"];
+}
